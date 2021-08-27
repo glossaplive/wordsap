@@ -1,0 +1,410 @@
+<!Doctype html>
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+		<meta name="description" content="English German Dictionary">
+		<meta name="keywords" content="English German Dictionary, SAP Dict, SAPDict">
+		<meta name="author" content="engineerthoughts">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>SAP Dict</title>
+		<link rel="shortcut icon" href="images/sapdictlogo.PNG">
+		<link rel="stylesheet" type="text/css" href="css/sapdictcss_index.css">	
+		<!--<link rel="stylesheet" type="text/css" href="css/textboxsearch.css">-->
+		<link rel="stylesheet" type="text/css" href="css/autocomplete.css">
+		<link rel="stylesheet" type="text/css" href="css/quescss.css">
+		<script src="js/sapdictjs_navbar.js"></script>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		
+		<style>
+		#overlay 
+		{
+		  position: fixed;
+		  display: none;
+		  width: 100%;
+		  height: 100%;
+		  top: 0;
+		  left: 0;
+		  right: 0;
+		  bottom: 0;
+		  background-color: rgba(0,0,0,0.90);
+		  z-index: 2;
+		  cursor: pointer;
+		}
+
+		#text
+		{
+		  position: absolute;
+		  top: 50%;
+		  left: 50%;
+		  font-size: 16px;
+		  color: white;
+		  transform: translate(-50%,-50%);
+		  -ms-transform: translate(-50%,-50%);
+		}
+		</style>
+		
+	</head>
+	<body>
+		<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ta_IN/sdk.js#xfbml=1&version=v11.0" nonce="duWtghRx"></script>
+
+	<center>	
+		<!--<div class="indextop">
+			<img class="innerindextop" src="images/sapdictlogo.PNG" width='60px', height='60px'></img>
+			<span class="innerindextop">SAP DICT</span>
+		</div>-->
+	
+		<div class="homeindexmenuclass" id="idhomeindexmenu">
+			<a href="index.html" class="active">HOME</a>
+			<a href="question.html">GERMAN QUIZ</a>
+			<a href="aboutus.html">ABOUT US</a>
+			<a href="disclaimer.html">TERMS</a>
+			<!--<a href="admin.html" id="hiadmin">ADMIN LOGIN</a>-->
+			<a href="javascript:void(0);" class="icon" onclick="topnavbar()">☰</a>
+		</div>
+
+
+		<center>
+		<div style="margin-top:20px;margin-bottom:0px;">
+		German Special Characters:<br>
+		<button onclick="typevalue('ä')">ä</button>
+		<button onclick="typevalue('ö')">ö</button>
+		<button onclick="typevalue('ü')">ü</button>
+		<button onclick="typevalue('ß')">ß</button>
+		<button onclick="typevalue('Ä')">Ä</button>
+		<button onclick="typevalue('Ö')">Ö</button>
+		<button onclick="typevalue('Ü')">Ü</button>
+		</div>
+			
+		<div class="autocomplete" style="margin-top:0px;">
+		
+		<form method="post" id="contact-form">
+			<input id="myInput" class="inputtext" type="text" name="myCountry" placeholder="Enter the Word to Search" autocomplete='off'></input>
+			<span>
+			<button type = "submit" id = "gobuttonid" class="GoButton" onclick="engtogerfun();wordsearchs();updatewaurl();">SEARCH 🔍</button></span>
+		</form>
+		</div>
+		</center>
+		
+		<!-- <script src="js/wordsearchengtoger.js"></script> -->
+		<script src="js/typejs.js"></script>
+		<script src="js/firebasedict.js"></script>
+		<script src="js/autocompletejs.js"></script>
+		<script src="js/engwordslistjs.js"></script>
+		<script src="js/gerwordslistjs.js"></script>
+		<script src="js/wordsdict.js"></script>
+		<script src="js/alphaval.js"></script>
+
+		
+		
+		
+		<center>
+		<div id="Dicresultsmain" style="display:none"><u style="font-size:18px">Exact Match</u>
+			<table id="Dicresults" style="margin-top:-2px">
+			  <tr>
+				<th class="tablerowsno" style="text-align:center">S.NO.</th>
+				<th class="tableengger">ENGLISH<span style="margin-left:15px"><img src="images/eng.png" width='50px', height='30px'></img></span></th> 
+				<th class="tableengger">GERMAN<span style="margin-left:15px"><img src="images/ger.png" width='50px', height='30px'></img></span></th> 
+			  </tr>
+			  <tr>
+				<td class="tablerowsno">1</td>
+				<td id="EnglishwordTab1" >-</td>
+				<td id="GermanwordTab1">-</td>
+			  </tr>
+			</table>
+		</div>
+		<p id="disclaimer" style="display:none">Don't Worry We will update the Entered Word's Translation into Dictionary Soon</p>
+		<button id ="gobackhome" style="display:none">⇐ Go Back !!</button>
+		</center>
+		<br>
+		
+	<center>
+<div id = "listtablehide"><u style="font-size:18px">List of Words</u>	
+<table>
+<tr style="cursor:pointer">
+	<td class="alphav" onclick="getalpha('a')">A</td>
+	<td class="alphav" onclick="getalpha('b')">B</td>
+	<td class="alphav" onclick="getalpha('c')">C</td>
+	<td class="alphav" onclick="getalpha('d')">D</td>
+	<td class="alphav" onclick="getalpha('e')">E</td>
+	<td class="alphav" onclick="getalpha('f')">F</td>
+	<td class="alphav" onclick="getalpha('g')">G</td>
+	<td class="alphav" onclick="getalpha('h')">H</td>
+	<td class="alphav" onclick="getalpha('i')">I</td>
+	<td class="alphav" onclick="getalpha('j')">J</td>
+	<td class="alphav" onclick="getalpha('k')">K</td>
+	<td class="alphav" onclick="getalpha('l')">L</td>
+	<td class="alphav" onclick="getalpha('m')">M</td>
+	<td class="alphav" onclick="getalpha('n')">N</td>
+	<td class="alphav" onclick="getalpha('o')">O</td>
+	<td class="alphav" onclick="getalpha('p')">P</td>
+	<td class="alphav" onclick="getalpha('q')">Q</td>
+	<td class="alphav" onclick="getalpha('r')">R</td>
+	<td class="alphav" onclick="getalpha('s')">S</td>
+	<td class="alphav" onclick="getalpha('t')">T</td>
+	<td class="alphav" onclick="getalpha('u')">U</td>
+	<td class="alphav" onclick="getalpha('v')">V</td>
+	<td class="alphav" onclick="getalpha('w')">W</td>
+	<td class="alphav" onclick="getalpha('x')">X</td>
+	<td class="alphav" onclick="getalpha('y')">Y</td>
+	<td class="alphav" onclick="getalpha('z')">Z</td>
+</tr>
+</table>
+	<table id="TableList" style="margin-top:-2px"> 
+		<tr>
+			<th class="tablerowsno" style="text-align:center">S.NO.</th>
+			<th class="tableengger">ENGLISH<span style="margin-left:15px"><img src="images/eng.png" width='50px', height='30px'></img></span></th> 
+			<th class="tableengger">GERMAN<span style="margin-left:15px"><img src="images/ger.png" width='50px', height='30px'></img></span></th> 
+		</tr>
+		<tr id="row1">
+			<td id="row1col1" class="tablerowsno"></td>
+			<td id="row1col2"></td>
+			<td id="row1col3"></td>
+		</tr>
+		<tr id="row2">
+			<td id="row2col1" class="tablerowsno"></td>
+			<td id="row2col2"></td>
+			<td id="row2col3"></td>
+		</tr>
+		<tr id="row3">
+			<td id="row3col1" class="tablerowsno"></td>
+			<td id="row3col2"></td>
+			<td id="row3col3"></td>
+		</tr>
+		<tr id="row4">
+			<td id="row4col1" class="tablerowsno"></td>
+			<td id="row4col2"></td>
+			<td id="row4col3"></td>
+		</tr>
+		<tr id="row5">
+			<td id="row5col1" class="tablerowsno"></td>
+			<td id="row5col2"></td>
+			<td id="row5col3"></td>
+		</tr>
+		<tr id="row6">
+			<td id="row6col1" class="tablerowsno"></td>
+			<td id="row6col2"></td>
+			<td id="row6col3"></td>
+		</tr>
+		<tr id="row7">
+			<td id="row7col1" class="tablerowsno"></td>
+			<td id="row7col2"></td>
+			<td id="row7col3"></td>
+		</tr>
+		<tr id="row8">
+			<td id="row8col1" class="tablerowsno"></td>
+			<td id="row8col2"></td>
+			<td id="row8col3"></td>
+		</tr>
+		<tr id="row9">
+			<td id="row9col1" class="tablerowsno"></td>
+			<td id="row9col2"></td>
+			<td id="row9col3"></td>
+		</tr>
+		<tr id="row10">
+			<td id="row10col1" class="tablerowsno"></td>
+			<td id="row10col2"></td>
+			<td id="row10col3"></td>
+		</tr>
+	</table>
+	
+	<div>
+		<table>
+		<tr>
+			<td class="pgclass" id="pgprevious" style="display:none" onclick="decsetvalue();">◄</td>
+			<td class="pgclass" id="pgno1" style="font-size:18px;font-weight:bolder;color:green" onclick="sendval('pgno1');displaytable();updatetable();ucolor('pgno1');">1</td>
+			<td class="pgclass" id="pgno2" onclick="sendval('pgno2');displaytable();updatetable();ucolor('pgno2');">2</td>
+			<td class="pgclass" id="pgno3" onclick="sendval('pgno3');displaytable();updatetable();ucolor('pgno3');">3</td>
+			<td class="pgclass" id="pgno4" onclick="sendval('pgno4');displaytable();updatetable();ucolor('pgno4');">4</td>
+			<td class="pgclass" id="pgno5" onclick="sendval('pgno5');displaytable();updatetable();ucolor('pgno5');">5</td>
+			<td class="pgclass" id="pgno6" onclick="sendval('pgno6');displaytable();updatetable();ucolor('pgno6');">6</td>
+			<td class="pgclass" id="pgno7" onclick="sendval('pgno7');displaytable();updatetable();ucolor('pgno7');">7</td>
+			<td class="pgclass" id="pgno8" onclick="sendval('pgno8');displaytable();updatetable();ucolor('pgno8');">8</td>
+			<td class="pgclass" id="pgno9" onclick="sendval('pgno9');displaytable();updatetable();ucolor('pgno9');">9</td>
+			<td class="pgclass" id="pgno10" onclick="sendval('pgno10');displaytable();updatetable();ucolor('pgno10')">10</td>
+			<td class="pgclass" id="pgnext" onclick="incsetvalue();">►</td>
+			<button id="pgvalinput" style="display:none" value=1></button>
+		</tr>
+		</table>
+	</div>
+	
+	<div style="margin-top:10px;display:none;">
+		<button onclick="displaytable();myFunctionfirst();firstFunction();" id="incdec">First &nbsp;</button>		
+		<button onclick="displaytable();myFunctiondec();updatetable();" id="dec">⫷ &nbsp; </button>
+		<input type="number" id="myLevel" min="1" value="1" style="border: 1px solid #ccc;border-radius:4px;font-size:12px;width:50px;height:16px;text-align:center;box-sizing: border-box;" readonly></input>
+		<span id="totalpagesdisp">	</span>
+		<button onclick="displaytable();myFunctioninc();updatetable();" id="inc">&nbsp; ⫸</button>
+		<button onclick="displaytable();myFunctionlast();lastfunction();" id="incdec">Last &nbsp;</button>
+	</div>	
+</div>	
+<a href="#idhomeindexmenu" style="text-decoration:none">
+	<div id="enggermantable">
+
+	</div>
+</a>
+
+<div id="searchtable" style="display:none"><u style="font-size:18px">Similar Match</u>
+
+	<table id="TableLista" style="margin-top:-2px"> 
+		<tr>
+			<th class="tablerowsno" style="text-align:center">S.NO.</th>
+			<th class="tableengger">ENGLISH<span style="margin-left:15px"><img src="images/eng.png" width='50px', height='30px'></img></span></th> 
+			<th class="tableengger">GERMAN<span style="margin-left:15px"><img src="images/ger.png" width='50px', height='30px'></img></span></th> 
+		</tr>
+		<tr id="rowa1">
+			<td id="rowa1col1" class="tablerowsno"></td>
+			<td id="rowa1col2"></td>
+			<td id="rowa1col3"></td>
+		</tr>
+		<tr id="rowa2">
+			<td id="rowa2col1" class="tablerowsno"></td>
+			<td id="rowa2col2"></td>
+			<td id="rowa2col3"></td>
+		</tr>	
+		<tr id="rowa3">
+			<td id="rowa3col1" class="tablerowsno"></td>
+			<td id="rowa3col2"></td>
+			<td id="rowa3col3"></td>
+		</tr>
+		<tr id="rowa4">
+			<td id="rowa4col1" class="tablerowsno"></td>
+			<td id="rowa4col2"></td>
+			<td id="rowa4col3"></td>
+		</tr>
+		<tr id="rowa5">
+			<td id="rowa5col1" class="tablerowsno"></td>
+			<td id="rowa5col2"></td>
+			<td id="rowa5col3"></td>
+		</tr>
+		<tr id="rowa6">
+			<td id="rowa6col1" class="tablerowsno"></td>
+			<td id="rowa6col2"></td>
+			<td id="rowa6col3"></td>
+		</tr>
+		<tr id="rowa7">
+			<td id="rowa7col1" class="tablerowsno"></td>
+			<td id="rowa7col2"></td>
+			<td id="rowa7col3"></td>
+		</tr>
+		<tr id="rowa8">
+			<td id="rowa8col1" class="tablerowsno"></td>
+			<td id="rowa8col2"></td>
+			<td id="rowa8col3"></td>
+		</tr>
+		<tr id="rowa9">
+			<td id="rowa9col1" class="tablerowsno"></td>
+			<td id="rowa9col2"></td>
+			<td id="rowa9col3"></td>
+		</tr>
+		<tr id="rowa10">
+			<td id="rowa10col1" class="tablerowsno"></td>
+			<td id="rowa10col2"></td>
+			<td id="rowa10col3"></td>
+		</tr>
+	</table>
+	
+	<div style="margin-top:10px;">		
+		<button onclick="displaytablea();myFunctionfirsta();firstFunctiona();" id="incdeca">First &nbsp;</button>		
+		<button onclick="displaytablea();myFunctiondeca();updatetablea();" id="deca">⫷ &nbsp; </button>
+
+		<input type="number" id="alevel" value="1" min="1" style="border: 1px solid #ccc;border-radius:4px;font-size:12px;width:50px;height:16px;text-align:center;box-sizing: border-box;" readonly></input>
+		<span id="totalpagesdispa">	</span>
+		<button onclick="displaytablea();myFunctioninca();updatetablea();" id="inca">&nbsp; ⫸</button>
+		<button onclick="displaytablea();myFunctionlasta();lastfunctiona();" id="incdeca">Last &nbsp;</button>
+	</div>	
+	<br><br>
+</div>
+	
+		</center>
+		
+		
+	<script>
+		function displaytable()
+		{
+			for (var abc = 0; abc < 10; abc++)
+			{
+				var idgenrowcol1 = "row".concat(abc+1);
+				document.getElementById(idgenrowcol1).style.display="none";
+				var idgenrowcol2 = "row".concat(abc+1);
+				document.getElementById(idgenrowcol2).style.display="none";		
+				var idgenrowcol3 = "row".concat(abc+1);
+				document.getElementById(idgenrowcol3).style.display="none";
+			}
+		}
+		function displaytablea()
+		{
+			for (var abca = 0; abca < 10; abca++)
+			{
+				
+				var idgenrowcol1 = "rowa".concat(abca+1);
+				document.getElementById(idgenrowcol1).style.display="none";
+				var idgenrowcol2 = "rowa".concat(abca+1);
+				document.getElementById(idgenrowcol2).style.display="none";		
+				var idgenrowcol3 = "rowa".concat(abca+1);
+				document.getElementById(idgenrowcol3).style.display="none";
+				console.log(123456);
+			}
+		}
+	</script>
+		<script src="js/tablelistJS.js"></script>	
+		<script src="js/searchjs.js"></script>
+		
+		<p class="questdesc">
+		Glossap.de web site has been designed with intention to help those, who want to know the SAP terminology of <span style="color:#004FFF">English/German words.</span> This is fully based on our knowledge on SAP terms gained from real time experience. In this site you can find almost all the exact <span style="color:#004FFF">SAP terminologies </span>you look for. Translations of SAP terms, words are constantly reviewed to avoid all possible errors. However, we cannot warrant full correctness of all contents. While using this site, you agree to have read and accepted our terms of use, cookie and privacy policy. SAP and the SAP logo are registered trademarks of SAP SE. This web site is not sponsored by, affiliated with, or approved by SAP SE.
+
+		<br><br>Glossap.de also offers you a page for<span style="color:#004FFF"> German quiz,</span> to test your basic German language knowledge. With the help of the quiz, you can decide which level German <span style="color:#004FFF">(A1, A2, B1 ...)</span> you are now capable of. The purpose is to help you ensure that you have both German language and SAP terminology skills. A double edged sword.
+
+		<br><br>In the menu<span style="color:#004FFF"> "SAP jobs" </span>in our Glossap.de you can find the requirements to get a SAP based job in German speaking countries (<a href="https://en.wikipedia.org/wiki/Germany" target="_blank">Germany</a>, <a href="https://en.wikipedia.org/wiki/Austria" target="_blank">Austria</a> and <a href="https://en.wikipedia.org/wiki/Switzerland" target="_blank">Switzerland</a> - <span style="color:red">DACH</span>).
+		</p>
+		
+		Share on: 
+		<div class="fb-share-button" data-href="https://engineerthoughts.github.io/sapdict/" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fengineerthoughts.github.io%2Fsapdict%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">share</a></div>
+		<iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fengineerthoughts.github.io%2Fsapdict%2F&layout=button_count&size=large&width=88&height=28&appId" width="88" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+		<!-- <img src="images/icon/fb.png" width="30px" height="30px"></img> -->
+		<a id="whatsid" href="https://api.whatsapp.com/send?text=https://www.glosssap.de" target="_top"><img src="images/icon/wa.png" width="35px" height="35px"></img></a>
+		<a id="emailid" href="mailto:sapdic@gmail.com?subject=I%20would%20like%20to%20Learn%20German.&body=my%20Contact%20Details%20are"><img src="images/icon/gm.png" width="35px" height="35px"></img></a>
+<br><br><br>
+		
+	<div id="overlay">
+		<div id="text">Your privacy
+			By clicking "Accept", 
+			you agree Glossap.de can store basic cookies on your device.<br>
+			<button onclick="off()">Accept</button>
+			<button onclick="off()">Deny</button>
+		</div>
+	</div>
+		
+	<script>
+	document.getElementById("whatsid").href = "https://api.whatsapp.com/send?text="+window.location.href;
+	document.getElementById("emailid").href = "mailto:sapdic@gmail.com?subject=I%20would%20like%20to%20Learn%20German.&body="+window.location.href;
+	console.log("https://api.whatsapp.com/send?text="+window.location.href);
+	function updatewaurl()
+	{
+	document.getElementById("whatsid").href = "https://api.whatsapp.com/send?text="+window.location.href;
+	document.getElementById("emailid").href = "mailto:sapdic@gmail.com?subject=I%20would%20like%20to%20Learn%20German.&body="+window.location.href;
+	console.log("https://api.whatsapp.com/send?text="+window.location.href);
+	}
+		function on() 
+		{
+		  document.getElementById("overlay").style.display = "block";
+		}	
+		function off() 
+		{
+		  document.getElementById("overlay").style.display = "none";
+		}
+		var cookieval = localStorage.getItem("sapcookie");
+			if (typeof(Storage) !== "undefined" && cookieval != "1") 
+			  {
+			  // Store
+			  localStorage.setItem("sapcookie", "1");
+			  on();
+			  }
+		   else 
+		    {
+			  console.log("Sorry, your browser does not support Cookies...");
+			}
+	</script>
+	</body>
+	</center>
+</html>

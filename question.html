@@ -1,0 +1,217 @@
+<!Doctype HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<meta name="description" content="English German Dictionary">
+	<meta name="keywords" content="English German Dictionary, SAP Dict, SAPDict">
+	<meta name="author" content="engineerthoughts">
+	
+	<title>SAP Dict</title>
+	<link rel="shortcut icon" href="images/sapdictlogo.PNG">
+	<link rel="stylesheet" type="text/css" href="css/sapdictcss_index.css">	
+	<!--<link rel="stylesheet" type="text/css" href="css/textboxsearch.css">-->
+	<link rel="stylesheet" type="text/css" href="css/autocomplete.css">
+	<script src="js/sapdictjs_navbar.js"></script>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="css/quescss.css">
+	<link rel="stylesheet" href="css/scrolleffect.css">
+	<link rel="stylesheet" href="css/loadingeffect.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+		<div class="homeindexmenuclass" id="idhomeindexmenu">
+			<a href="index.html" >HOME</a>
+			<a href="question.html"class="active">GERMAN QUIZ</a>
+			<a href="aboutus.html">ABOUT US</a>
+			<a href="disclaimer.html">TERMS</a>
+			<!--<a href="admin.html" id="hiadmin">ADMIN LOGIN</a>-->
+			<a href="javascript:void(0);" class="icon" onclick="topnavbar()">☰</a>
+		</div>
+		
+<div id="qa0" class="outdiv" >
+	<center>
+	<p class="questdesc">Hallo</p>
+
+
+	<div style="display:inline-block;vertical-align: middle;">
+	  <b>Herzlich willkommen bei Deutschquiz!</b>
+	</div>
+	<div id="qr" style="display:inline-block; min-width:50px; height:30px; align: center;vertical-align: middle;" >
+	  <img src="images/ger.png" style="height:30px;width:50px;">
+	</div>
+	
+
+<br><br>
+
+<p class="questdesc">Let us see how much basic knowledge you have about German language. Believe it ... this test will be interesting for you, because this is just a quiz about your favorite language. NOT A STRESS! This quiz includes basic questions for German A1 & A2 language certificates (like Goethe Zertifikat, TestDaf, TELC).
+You can assess yourself where you stand and establish clarity on what to do next, if your aim is to get an IT+Tech job with an attractive salary in German/Austria/Switzerland.
+
+<br><br>Happy answering!!</p>
+	
+	<button onclick="startt();" style="background-color:#BBD1FA;padding:10px;border:none;box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);"><b>Start Test ✍️</b>	</button>
+<p class="questdesc"><br>German (Deutsch) is the official language in Germany, Austria and Switzerland and is widely spoken in Liechtenstein, and the Italian province of South Tyrol. It is also a co-official language of Luxembourg and Belgium. Every year the percentage of those who want to learn German almost goes up. People learn German mainly for job, business and higher education in Germany (+ DACH). Germany offers a lot of great things, with those one can get off to a good start. Whether it is a scientific career or IT - Engineer career or medical career or any professional career, you will find it in Germany. It is highly recommended to learn German (need not be very fluent but at least basic level of A2), if you want to be more successful in your business in Germany.
+
+<br><br>
+<b>Note:</b> Germany offers free scholarships for international students (Terms and Conditions apply). Being one of the largest economies in the world and a great nation, you can say "Germany is my second home" :-) 
+
+</p>
+		<div id='s11' style="display:none;border:none">
+		<hr>
+	<!-- <img src="images/border.png" width="100%" height="30px"></img> -->
+	</div>
+	</center>
+</div>
+
+<div id="qa1" class="outdiv" style="display:none">
+	<p id="quest1">Question 1</p>
+	<button class="options" id="optiona1" onclick="clickoption('optiona1','answer1','a')">Answer 1</button>
+	<button class="options" id="optionb1" onclick="clickoption('optionb1','answer1','b')">Answer 2</button>
+	<button class="options" id="optionc1" onclick="clickoption('optionc1','answer1','c')">Answer 3</button>
+	<!-- <button class="options" id="optiond1" onclick="clickoption('optiond1')">Answer 4</button> -->
+	<button id="answer1" value="-" style="display:none"></button>
+	<button class="nextbtn" onclick="opennav('qa2','s2')">Next</button>
+</div>
+
+<div id="qa2" class="outdiv" style="display:none">
+	<p id="quest2">Question 2</p>
+	<button class="options" id="optiona2" onclick="clickoption('optiona2','answer2','a')">Answer 1</button>
+	<button class="options" id="optionb2" onclick="clickoption('optionb2','answer2','b')">Answer 2</button>
+	<button class="options" id="optionc2" onclick="clickoption('optionc2','answer2','c')">Answer 3</button>
+	<!-- <button class="options" id="optiond2" onclick="clickoption('optiond2')">Answer 4</button> -->
+	<button id="answer2" value="-" style="display:none"></button>
+	<button class="nextbtn" onclick="opennav('qa3','s3')">Next</button>
+	<button class="prevbtn" onclick="opennav('qa1','s1')">Prev</button>
+</div>
+
+<div id="qa3" class="outdiv" style="display:none">
+	<p id="quest3">Question 3</p>
+	<button class="options" id="optiona3" onclick="clickoption('optiona3','answer3','a')">Answer 1</button>
+	<button class="options" id="optionb3" onclick="clickoption('optionb3','answer3','b')">Answer 2</button>
+	<button class="options" id="optionc3" onclick="clickoption('optionc3','answer3','c')">Answer 3</button>
+	<!-- <button class="options" id="optiond3" onclick="clickoption('optiond3')">Answer 4</button> -->
+	<button id="answer3" value="-" style="display:none"></button>
+	<button class="nextbtn" onclick="opennav('qa4','s4')">Next</button>
+	<button class="prevbtn" onclick="opennav('qa2','s2')">Prev</button>
+</div>
+
+<div id="qa4" class="outdiv" style="display:none">
+	<p id="quest4">Question 4</p>
+	<button class="options" id="optiona4" onclick="clickoption('optiona4','answer4','a')">Answer 1</button>
+	<button class="options" id="optionb4" onclick="clickoption('optionb4','answer4','b')">Answer 2</button>
+	<button class="options" id="optionc4" onclick="clickoption('optionc4','answer4','c')">Answer 3</button>
+	<!-- <button class="options" id="optiond4" onclick="clickoption('optiond4')">Answer 4</button> -->
+	<button id="answer4" value="-" style="display:none"></button>
+	<button class="nextbtn" onclick="opennav('qa5','s5')">Next</button>
+	<button class="prevbtn" onclick="opennav('qa3','s3')">Prev</button>
+</div>
+
+<div id="qa5" class="outdiv" style="display:none">
+	<p id="quest5">Question 5</p>
+	<button class="options" id="optiona5" onclick="clickoption('optiona5','answer5','a')">Answer 1</button>
+	<button class="options" id="optionb5" onclick="clickoption('optionb5','answer5','b')">Answer 2</button>
+	<button class="options" id="optionc5" onclick="clickoption('optionc5','answer5','c')">Answer 3</button>
+	<!-- <button class="options" id="optiond5" onclick="clickoption('optiond5')">Answer 4</button> -->
+	<button id="answer5" value="-" style="display:none"></button>
+	<button class="nextbtn" onclick="opennav('qa6','s6')">Next</button>
+	<button class="prevbtn" onclick="opennav('qa4','s4')">Prev</button>
+</div>
+
+<div id="qa6" class="outdiv" style="display:none">
+	<p id="quest6">Question 6</p>
+	<button class="options" id="optiona6" onclick="clickoption('optiona6','answer6','a')">Answer 1</button>
+	<button class="options" id="optionb6" onclick="clickoption('optionb6','answer6','b')">Answer 2</button>
+	<button class="options" id="optionc6" onclick="clickoption('optionc6','answer6','c')">Answer 3</button>
+	<!-- <button class="options" id="optiond6" onclick="clickoption('optiond6')">Answer 4</button> -->
+	<button id="answer6" value="-" style="display:none"></button>
+	<button class="nextbtn" onclick="opennav('qa7','s7')">Next</button>
+	<button class="prevbtn" onclick="opennav('qa5','s5')">Prev</button>
+</div>
+
+<div id="qa7" class="outdiv" style="display:none">
+	<p id="quest7">Question 7</p>
+	<button class="options" id="optiona7" onclick="clickoption('optiona7','answer7','a')">Answer 1</button>
+	<button class="options" id="optionb7" onclick="clickoption('optionb7','answer7','b')">Answer 2</button>
+	<button class="options" id="optionc7" onclick="clickoption('optionc7','answer7','c')">Answer 3</button>
+	<!-- <button class="options" id="optiond7" onclick="clickoption('optiond7')">Answer 4</button> -->
+	<button id="answer7" value="-" style="display:none"></button>
+	<button class="nextbtn" onclick="opennav('qa8','s8')">Next</button>
+	<button class="prevbtn" onclick="opennav('qa6','s6')">Prev</button>
+</div>
+
+<div id="qa8" class="outdiv" style="display:none">
+	<p id="quest8">Question 8</p>
+	<button class="options" id="optiona8" onclick="clickoption('optiona8','answer8','a')">Answer 1</button>
+	<button class="options" id="optionb8" onclick="clickoption('optionb8','answer8','b')">Answer 2</button>
+	<button class="options" id="optionc8" onclick="clickoption('optionc8','answer8','c')">Answer 3</button>
+	<!-- <button class="options" id="optiond8" onclick="clickoption('optiond8')">Answer 4</button> -->
+	<button id="answer8" value="-" style="display:none"></button>
+	<button class="nextbtn" onclick="opennav('qa9','s9')">Next</button>
+	<button class="prevbtn" onclick="opennav('qa7','s7')">Prev</button>
+</div>
+
+<div id="qa9" class="outdiv" style="display:none">
+	<p id="quest9">Question 9</p>
+	<button class="options" id="optiona9" onclick="clickoption('optiona9','answer9','a')">Answer 1</button>
+	<button class="options" id="optionb9" onclick="clickoption('optionb9','answer9','b')">Answer 2</button>
+	<button class="options" id="optionc9" onclick="clickoption('optionc9','answer9','c')">Answer 3</button>
+	<!-- <button class="options" id="optiond9" onclick="clickoption('optiond9')">Answer 4</button> -->
+	<button id="answer9" value="-" style="display:none"></button>
+	<button class="nextbtn" onclick="opennav('qa10','s10')">Next</button>
+	<button class="prevbtn" onclick="opennav('qa8','s8')">Prev</button>
+</div>
+
+<div id="qa10" class="outdiv" style="display:none">
+	<p id="quest10">Question 10</p>
+	<button class="options" id="optiona10" onclick="clickoption('optiona10','answer10','a')">Answer 1</button>
+	<button class="options" id="optionb10" onclick="clickoption('optionb10','answer10','b')">Answer 2</button>
+	<button class="options" id="optionc10" onclick="clickoption('optionc10','answer10','c')">Answer 3</button>
+	<!-- <button class="options" id="optiond10" onclick="clickoption('optiond10')">Answer 4</button> -->
+	<button id="answer10" value="-" style="display:none"></button>
+	<button class="nextbtn" onclick="submittest();opennav('qa11','s10');">Submit</button>
+	<button class="prevbtn" onclick="opennav('qa9','s9')">Prev</button>
+</div>
+
+<div id="qa11" class="outdiv" style="display:none">
+	
+	<center>
+	<div class="circlePercent" id="circlePercent">
+		<div class="counter" id="counter" data-percent="100"></div>
+		<div class="progress" id="progress" style="transform: rotate(360deg);"></div>
+		<div class="progressEnd" id="progressEnd" style="transform: rotate(360deg);"></div>
+	</div>
+	
+	<br><br><br>	
+	
+	<button class="finalbtn" onclick="window.location.reload();">Re-Take</button>
+	<button class="finalbtn" onclick="opennav('qa1','s1')">Review</button>
+	
+	</center>
+	<br><br>
+
+</div>
+
+<script src="js/questionjs.js"></script>
+<script src="js/submitreply.js"></script>
+<script src="js/inputjs.js"></script>
+
+
+<div id="scrollq" class="scrollmenu" style="display:none">
+  <button class="scrollbutton" onclick="opennav('qa1','s1')" id="s1" style="border:2px solid #00b7ff;opacity:1"> 1 </button>
+  <button class="scrollbutton" onclick="opennav('qa2','s2')" id="s2"> 2 </button>
+  <button class="scrollbutton" onclick="opennav('qa3','s3')" id="s3"> 3 </button>
+  <button class="scrollbutton" onclick="opennav('qa4','s4')" id="s4"> 4 </button>
+  <button class="scrollbutton" onclick="opennav('qa5','s5')" id="s5"> 5 </button>
+  <button class="scrollbutton" onclick="opennav('qa6','s6')" id="s6"> 6 </button>
+  <button class="scrollbutton" onclick="opennav('qa7','s7')" id="s7"> 7 </button>  
+  <button class="scrollbutton" onclick="opennav('qa8','s8')" id="s8"> 8 </button>
+  <button class="scrollbutton" onclick="opennav('qa9','s9')" id="s9"> 9 </button>
+  <button class="scrollbutton" onclick="opennav('qa10','s10')" id="s10"> 10</button>
+  
+</div>
+
+</body>
+</html>

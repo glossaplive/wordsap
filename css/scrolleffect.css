@@ -1,0 +1,42 @@
+.scrollbutton{
+	background-color:white;
+	border: 1px solid grey;
+	border-radius:50%;
+	width:30px;
+	height:30px;
+	opacity:0.5;
+}
+
+.scrollmenu {
+  /* background-color: #333; */
+  overflow: auto;
+  white-space: nowrap;
+  width:100%;
+  text-align:center;
+  bottom:2%;
+  position:fixed;
+  left: 0px;
+}
+
+.scrollmenu a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+
+}
+
+.scrollmenu a:hover {
+  background-color: #777;
+}
+
+.scrollmenu::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollmenu {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+

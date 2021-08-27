@@ -1,0 +1,63 @@
+.options
+{
+	width:100%;
+	padding-top:10px;
+	padding-bottom:10px;
+	background-color:white;
+	border:0.2px solid black;
+	margin-top:5px;
+	text-align:left;
+}
+#s11{
+	border:none;
+}
+.outdiv
+{
+	padding:5px;
+}
+.questdesc
+{
+	width:50%;
+	text-align:justify;
+}
+.nextbtn
+{
+	width:75px;
+	border:none;
+	background-color:#00b7ff;
+	color:white;
+	padding:5px;
+	float:right;
+	margin-top:5px;
+	margin-left:5px;
+}
+.prevbtn
+{
+	width:75px;
+	border:none;
+	background-color:#eb4034;
+	color:white;
+	padding:5px;
+	float:right;
+	margin-top:5px;
+	margin-left:5px;
+}
+
+.finalbtn
+{
+	width:75px;
+	border:none;
+	background-color:#69001f;
+	color:white;
+	padding:5px;
+	margin-top:5px;
+	margin-left:5px;
+}
+@media screen and (max-width: 600px) 
+{
+
+.questdesc
+{
+	width:95%;
+}
+}
