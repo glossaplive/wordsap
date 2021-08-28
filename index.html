@@ -3,10 +3,10 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 		<meta name="description" content="English German Dictionary">
-		<meta name="keywords" content="English German Dictionary, SAP Dict, SAPDict">
+		<meta name="keywords" content="WORDSAP, wordsap,wordsapdict, sapdictionary, English German Dictionary, SAP Dict, SAPDict">
 		<meta name="author" content="engineerthoughts">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>SAP Dict</title>
+		<title>WORDSAP</title>
 		<link rel="shortcut icon" href="images/sapdictlogo.PNG">
 		<link rel="stylesheet" type="text/css" href="css/sapdictcss_index.css">	
 		<!--<link rel="stylesheet" type="text/css" href="css/textboxsearch.css">-->
@@ -62,7 +62,7 @@
 			<a href="aboutus.html">ABOUT US</a>
 			<a href="disclaimer.html">TERMS</a>
 			<a href="View_on_SAP_ERP.html">VIEW ON SAP ERP</a>
-			<a href="Thinking_of_sap_jobs.html">THINKING OF SAP JOBS</a>
+			<a href="thinking_of_sap_jobs.html">THINKING OF SAP JOBS</a>
 			<a href="privacy_policy.html">PRIVACY POLICY</a>
 			<!--<a href="admin.html" id="hiadmin">ADMIN LOGIN</a>-->
 			<a href="javascript:void(0);" class="icon" onclick="topnavbar()">☰</a>
@@ -86,7 +86,15 @@
 		<!-- <form method="post" id="contact-form"> -->
 			<input id="myInput" class="inputtext" type="text" name="myCountry" placeholder="Enter the Word to Search" autocomplete='off'></input>
 			<span>
-			<button type = "submit" id = "gobuttonid" class="GoButton" onclick="engtogerfun();wordsearchs();updatewaurl();">SEARCH 🔍</button></span>
+			<button type = "submit" id = "gobuttonid" class="GoButton" onclick="engtogerfun();wordsearchs();updatewaurl();">SEARCH 🔍</button>
+			<button style="padding:15px 5px 13px 5px;border:none;font-size:18px;background-color:#c3c3c3;" onclick="cleartxt()">X</button>
+			</span>
+			<script>
+				function cleartxt()
+				{
+					document.getElementById("myInput").value = "";
+				}
+			</script>
 		<!-- </form> -->
 		</div>
 		</center>
@@ -308,7 +316,7 @@
 		</tr>
 	</table>
 	
-	<div style="margin-top:10px;">		
+	<div style="margin-top:10px;" id="getpgno">		
 		<button onclick="displaytablea();myFunctionfirsta();firstFunctiona();" id="incdeca">First &nbsp;</button>		
 		<button onclick="displaytablea();myFunctiondeca();updatetablea();" id="deca">⫷ &nbsp; </button>
 
@@ -381,12 +389,10 @@ repeat visits. We need your consent to set cookies.	<br>
 		
 	<script>
 	document.getElementById("whatsid").href = "https://api.whatsapp.com/send?text="+window.location.href;
-	document.getElementById("emailid").href = "mailto:sapdic@gmail.com?subject=I%20would%20like%20to%20Learn%20German.&body="+window.location.href;
 	console.log("https://api.whatsapp.com/send?text="+window.location.href);
 	function updatewaurl()
 	{
 	document.getElementById("whatsid").href = "https://api.whatsapp.com/send?text="+window.location.href;
-	document.getElementById("emailid").href = "mailto:sapdic@gmail.com?subject=I%20would%20like%20to%20Learn%20German.&body="+window.location.href;
 	console.log("https://api.whatsapp.com/send?text="+window.location.href);
 	}
 		function on() 
