@@ -282,8 +282,14 @@ function myFunctionfirsta()
 			//var startval = ((Math.ceil(lengthminus1 / 10))*10) - 11;
 			var startval = ((getinputval - 1) * 10);
 			var endval = ((getinputval - 1) * 10)+10;
-
+			document.getElementById("getpgno").style.display="block";
+			if (Math.ceil(lengthminus1 / 10) <= 1)
+			{
+				document.getElementById("getpgno").style.display="none";
+			}
+			
 			document.getElementById("totalpagesdispa").innerHTML = " of " + Math.ceil(lengthminus1 / 10);
+			
 			
 				for (var i = startval; i < endval; i++)
 				{
