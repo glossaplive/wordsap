@@ -1,6 +1,9 @@
 var similarmatchfull;
 function wordsearchs()
 {
+	  var inputVal = document.getElementById("myInput").value;
+	  if (inputVal != null && inputVal != "")
+	  {
 	document.getElementById("searchtable").style.display = "block";
 	document.getElementById("Dicresultsmain").style.display = "block";
 	document.getElementById("disclaimer").style.display = "block";
@@ -82,6 +85,11 @@ function wordsearchs()
 	document.getElementById("incdeca").click();
 	
 	}
+	  }
+	 else 
+	 {
+		 document.getElementById("searchtable").style.display = "none";
+	 }
 }
 
 function myFunctionfirsta()

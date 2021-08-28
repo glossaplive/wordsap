@@ -4,7 +4,7 @@ function engtogerfun()
  
   
   var inputVal = document.getElementById("myInput").value;
-  if (inputVal != null || inputVal != "")
+  if (inputVal != null && inputVal != "")
   {
    console.log(inputVal);
 	if (inputVal == null || inputVal == "")
