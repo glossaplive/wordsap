@@ -50,6 +50,44 @@
 	<div id="fb-root"></div>
 	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v11.0" nonce="8pxgv33P"></script>
 
+
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script>
+	document.onkeydown = function(e) {
+			if (e.ctrlKey && 
+				(e.keyCode === 67 || 
+				 e.keyCode === 86 || 
+				 e.keyCode === 85 || 
+				 e.keyCode === 117)) {
+				return false;
+			} else {
+				return true;
+			}
+	};
+	$(document).keypress("u",function(e) {
+	  if(e.ctrlKey)
+	  {
+	return false;
+	}
+	else
+	{
+	return true;
+	}
+	});
+	$(document).ready(function() {
+          $('body').bind('cut copy', function(e) {
+              e.preventDefault();
+            });
+        });
+	$(document).ready(function() {
+          $("body").on("contextmenu", function(e) {
+              return false;
+            });
+        });
+	</script>
+
+
 	<center>	
 		<!--<div class="indextop">
 			<img class="innerindextop" src="images/sapdictlogo.PNG" width='60px', height='60px'></img>
