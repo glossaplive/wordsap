@@ -1238,7 +1238,7 @@ var Englishworddic =
 "receiving storage location",
 "shipments",
 "participatory note (participatory certificate)",
-"transaction ID (also called process ID",
+"transaction ID (also called process ID)",
 "entry screen",
 "inbound file",
 "payment card file",
