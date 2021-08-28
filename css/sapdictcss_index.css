@@ -135,6 +135,10 @@ body {
 	padding:1.3px;
 }
 
+.termsimg{
+	width:20%;
+}
+
 .homeindexmenuclass {
   overflow: hidden;
   /* background-color: #538790; */
@@ -209,4 +213,7 @@ body {
     display: block;
     text-align: left;
   }
+  .termsimg{
+	width:90%;
+}
 }
