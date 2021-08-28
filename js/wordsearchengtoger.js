@@ -42,6 +42,28 @@ function engtogerfun()
 		document.getElementById("GermanwordTab1").innerHTML = "--Nicht verfügbar 😞 --";
 		document.getElementById("EnglishwordTab1").innerHTML = "--Not Available 😞 --";		
 		document.getElementById("disclaimer").style.display = "block";
+		console.log("non");
+		
+		const d = new Date();
+		var data = {
+		  'entry.1827868109': inputVal,
+		  'entry.771353988': d.getDate()+"/"+ d.getMonth()+"/"+d.getFullYear()
+		};
+
+		// Validate form
+		var formSuccess = true;
+
+		if (formSuccess) 
+		{
+		  // Send request
+		  $.ajax({
+			url: 'https://docs.google.com/forms/d/e/1FAIpQLSeU_iWr4SUU11HWxmfnpmoXGDgE75TEvWtkZQ7MMphK7sqZ-g/formResponse',
+			type: 'POST',
+			crossDomain: true,
+			dataType: "xml",
+			data: data
+		  });
+		}
 	}
   }
 	console.log(outpval);
@@ -51,7 +73,7 @@ function engtogerfun()
 	}
 	else 
 	{
-		if(outpval < 0)
+		/* if(outpval < 0)
 		{
 			$('#contact-form').submit(function(event) {
 					  event.preventDefault();
@@ -111,7 +133,7 @@ function engtogerfun()
 			  }, 300);
 			});
 			
-		}
+		} */
 	}
   }
 }

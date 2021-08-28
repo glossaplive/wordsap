@@ -79,6 +79,32 @@ function wordsearchs()
 		document.getElementById("Dicresultsmain").style.display = "block";
 		document.getElementById("disclaimer").style.display = "block";
 		document.getElementById("searchtable").style.display = "none";
+		const d = new Date();
+		console.log("non");
+
+		/* 'entry.1900810258': inputVal,
+							  'entry.1026800130': "no data" */
+							  /* 'entry.1827868109': inputVal,
+							  'entry.771353988': "no data" */
+		var data = {
+		  'entry.1827868109': inputVal,
+		  'entry.771353988': d.getDate()+"/"+ d.getMonth()+"/"+d.getFullYear()
+		};
+
+		// Validate form
+		var formSuccess = true;
+
+		if (formSuccess) 
+		{
+		  // Send request
+		  $.ajax({
+			url: 'https://docs.google.com/forms/d/e/1FAIpQLSeU_iWr4SUU11HWxmfnpmoXGDgE75TEvWtkZQ7MMphK7sqZ-g/formResponse',
+			type: 'POST',
+			crossDomain: true,
+			dataType: "xml",
+			data: data
+		  });
+		}
 	} 
 	
 	updatetablea();
