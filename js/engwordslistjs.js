@@ -605,7 +605,7 @@ var Englishworddic =
 "threshold",
 "confirm as complete",
 "The login still does not work.",
-"Unfortunately",
+"Unfortunately, the factory calendar is no longer running for these two transactions.",
 "extrapolate sales",
 "Open-to-Buy (OTB)",
 "authorization objects across the application",
