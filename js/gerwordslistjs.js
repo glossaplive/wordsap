@@ -605,7 +605,7 @@ var Germanworddic =
 "Schwellenwert (m)",
 "fertig melden",
 "Die Anmeldung funktioniert nach wie vor nicht.",
-"the factory calendar is no longer running for these two transactions.",
+"Bei diesen beiden Transaktionen zieht der Fabrikkalender leider nicht mehr.",
 "Umsatzhochrechnung (f)",
 "Limitplanung (f)",
 "Anwendungsübergreifende Berechtigungsobjekte",
