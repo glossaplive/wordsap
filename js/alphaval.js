@@ -25,7 +25,7 @@ function getalpha(getalphabet)
 	{
 		alpharowmodul = 1;
 		const para = document.createElement("p");
-		const node = document.createTextNode("Sorry, No English Words Starts with "+ getalphabet.toUpperCase());
+		const node = document.createTextNode("Sorry, there is no English word that starts with "+ getalphabet.toUpperCase());
 		para.appendChild(node);
 const element = document.getElementById("enggermantable");
 		element.appendChild(para);
@@ -35,7 +35,7 @@ const element = document.getElementById("enggermantable");
 	{
 		
 		const para = document.createElement("p");
-		const node = document.createTextNode("English Words Starts with "+ getalphabet.toUpperCase());
+		const node = document.createTextNode("English words that start with "+ getalphabet.toUpperCase());
 		const para1 = document.createElement("p");
 		const node1 = document.createTextNode("Attention: Some big words might be trimmed, Click on that to expand");
 		para1.setAttribute("style", "font-size:12px;");
@@ -161,7 +161,7 @@ for (galphait = 0;galphait < Germanworddic.length; galphait++)
 	{
 		galpharowmodul = 1;
 		const para = document.createElement("p");
-		const node = document.createTextNode("Sorry No German Words Starts with "+ ggetalphabet.toUpperCase());
+		const node = document.createTextNode("Sorry, there is no German word that starts with "+ ggetalphabet.toUpperCase());
 		para.appendChild(node);
 		const element = document.getElementById("enggermantable");
 		element.appendChild(para);
@@ -169,7 +169,7 @@ for (galphait = 0;galphait < Germanworddic.length; galphait++)
 	else
 	{
 		const para = document.createElement("p");
-		const node = document.createTextNode("German Words Starts with "+ ggetalphabet.toUpperCase());
+		const node = document.createTextNode("German words that start with "+ ggetalphabet.toUpperCase());
 		para.appendChild(node);
 		const para1 = document.createElement("p");
 		const node1 = document.createTextNode("Attention: Some big words might be trimmed, Click on that to expand");
