@@ -1,4 +1,4 @@
-var similarmatchfull;
+var similarmatchfull = [];
 function wordsearchs()
 {
 	  var inputVal = document.getElementById("myInput").value;
@@ -69,11 +69,34 @@ function wordsearchs()
 		}
 	}
 	totalsimilar.sort();
+	similarmatchfull_1 = [];
 	similarmatchfull = [];
-	console.log(similarmatchfull.length);
-	similarmatchfull = startsimilar.concat(totalsimilar);
+	console.log(similarmatchfull_1.length);
+	similarmatchfull_1 = startsimilar.concat(totalsimilar);
+	console.log(similarmatchfull_1);
+	console.log(similarmatchfull_1.length);
+	
+	//remove duplicates
+
+multiDimensionalUnique(similarmatchfull_1);
+	function multiDimensionalUnique(similarmatchfull_1) 
+	{
+		
+		var itemsFound = {};
+		for(var i = 0, l = similarmatchfull_1.length; i < l; i++) 
+		{
+			var stringified = JSON.stringify(similarmatchfull_1[i]);
+			if(itemsFound[stringified]) { continue; }
+			similarmatchfull.push(similarmatchfull_1[i]);
+			itemsFound[stringified] = true;
+		}
+		return similarmatchfull;
+		
+	}
+	
 	console.log(similarmatchfull);
-	console.log(similarmatchfull.length);
+	
+	
 	if(similarmatchfull.length <= 0)
 	{
 		document.getElementById("Dicresultsmain").style.display = "block";
