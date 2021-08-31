@@ -37,7 +37,7 @@ const element = document.getElementById("enggermantable");
 		const para = document.createElement("p");
 		const node = document.createTextNode("English words that start with "+ getalphabet.toUpperCase());
 		const para1 = document.createElement("p");
-		const node1 = document.createTextNode("Attention: Some big words might be trimmed, Click on that to expand");
+		const node1 = document.createTextNode("Attention: Some big words might be trimmed; click on that to expand.");
 		para1.setAttribute("style", "font-size:12px;");
 		para.appendChild(node);
 		para1.appendChild(node1);
@@ -172,7 +172,7 @@ for (galphait = 0;galphait < Germanworddic.length; galphait++)
 		const node = document.createTextNode("German words that start with "+ ggetalphabet.toUpperCase());
 		para.appendChild(node);
 		const para1 = document.createElement("p");
-		const node1 = document.createTextNode("Attention: Some big words might be trimmed, Click on that to expand");
+		const node1 = document.createTextNode("Attention: Some big words might be trimmed; click on that to expand.");
 		para1.setAttribute("style", "font-size:12px;");
 		para1.appendChild(node1);
 		const element = document.getElementById("enggermantable");
