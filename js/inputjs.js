@@ -35,11 +35,19 @@ var inputques = [
 ['Wir … Beleg senden.','werden','waren','wurden','a'],
 ['Fehler … ','tritt auf','trett auf','trettet auf','a'],
 ['Der Computer … 5000€.','koste','kostet','kosten','b'],
-['Ich … mit Bleistift.','schriebe','schriebte','schreibe','c'],
+['Ich … mit Bleistift.','schrieben','schriebte','schreibe','c'],
 ['Rußland … gegen Frankreich heute.','spiel','spielst','spielt','c'],
 ['Der Professor … nach USA.','fliegt','fliegst','flugt','a'],
-['Sie … an.','ruft','rufst','rufest','a']
-//['ques 15','optiona15','optionb15','optionc15','a']
+['Sie … an.','ruft','rufst','rufest','a'],
+['Ich ... sagen','möchten','möchte','möche','b'],
+['Er ... hören','willt','wollt','will','c'],
+['Wir ... jetzt gehen','konnt','kannan','können','c'],
+['... du auch kommen?','sollst','sollt','sollen','a'],
+['... ich hier fotografieren?','Durf','Darf','Dürf','b'],
+['Nein, man ... hier nicht fotografieren?','durfen','darf','dürf','b'],
+['Sie ... viel Wasser trinken','muß','mußtest','mußt','a'],
+['SAP ... Daten aus Oracle','erhältst','erhältet','erhält','c'],
+['Vennila ... in Italien','lebt','lebe','leben','a'],	
 ];
 
 correctanswers = [];
