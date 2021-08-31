@@ -2505,7 +2505,7 @@ var Germanworddic =
 "Abrechnungsmaterial (n)",
 "Steuerermittlung (f)",
 "Konditionssatz (m)",
-"IBM",
+"Datenspiegelung (f) (Microsoft, IBM, HP usw)",
 "Rückstellung (f)",
 "Abschlußkondition (f)",
 "Konditionsart (f)",
