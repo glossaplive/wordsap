@@ -4455,7 +4455,7 @@ var Englishworddic =
 "completed",
 "relevant for billing",
 "preference certificate",
-"",
+"-",
 "operating supplies (HIBE)",
 "nonstock materials (NLAG)",
 "nonvaluated materials (UNBW)",
