@@ -2505,7 +2505,7 @@ var Englishworddic =
 "material for settlement",
 "tax determination",
 "condition record",
-"data mirroring (Microsoft",
+"data mirroring (Microsoft, IBM, HP etc)",
 "provision",
 "contract condition",
 "condition type",
