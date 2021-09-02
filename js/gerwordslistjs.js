@@ -4812,5 +4812,7 @@ var Germanworddic =
 "Preishistorie (f)",
 "Standardsprachversion (f)",
 "Verarbeitung erzwingen",
-"Übererfassung (f)"
+"Übererfassung (f)",
+"Auftragsversion (f)",
+"Belegzeile (f)"  
 ];
