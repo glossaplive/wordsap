@@ -4814,5 +4814,6 @@ var Germanworddic =
 "Verarbeitung erzwingen",
 "Übererfassung (f)",
 "Auftragsversion (f)",
-"Belegzeile (f)"  
+"Belegzeile (f)",
+"Packungsetikett (n)"    
 ];
