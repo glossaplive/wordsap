@@ -36,7 +36,7 @@ function autocomplete(inp, arr) {
 			germandictsearchjs.push(Germanworddic[i-(Englishworddic.length)]);
 			germandictindexsearchjs.push(i); */
 			
-			console.log('lesser than 4');
+			//console.log('lesser than 4');
 			//console.log(englishdictsearchjs);
           /*create a DIV element for each matching element:*/
           b = document.createElement("DIV");
@@ -72,7 +72,7 @@ function autocomplete(inp, arr) {
 		{
 			englishdictsearchjs.push(Englishworddic[i]);
 			jtemp = jtemp +1;
-			console.log('greater4');
+			//console.log('greater4');
           /*create a DIV element for each matching element:*/
           c = document.createElement("DIV");
           /*insert a input field that will hold the current array item's value:*/

@@ -14,11 +14,11 @@ window.onload = function()
 	var readurl = window.location.href.split('?')[1];
   if (typeof readurl !== "undefined")
   {
-	  console.log("has value");
+	  //console.log("has value");
 	  var repundtospace = readurl.replace(/_/g, ' ');
 	  document.getElementById("myInput").value = repundtospace;
 	  engtogerfun();
-	  console.log(123);
+	  //console.log(123);
 		if (repundtospace != "")
 		{
 	  wordsearchs();
@@ -28,7 +28,7 @@ window.onload = function()
   if (readurl == "" || (typeof readurl === "undefined"))
   {
 	  document.getElementById("listtablehide").style.display = "block";
-	  console.log("empty");
+	  //console.log("empty");
   }
   else if (readurl != "" || (typeof readurl !== "undefined"))
   {
@@ -41,7 +41,7 @@ window.onload = function()
   
   
   var inputVal = document.getElementById("myInput").value;
-   console.log(inputVal);
+   //console.log(inputVal);
 	if (inputVal == null || inputVal == "")
 	{
 	document.getElementById("Dicresultsmain").style.display = "none";
@@ -57,7 +57,7 @@ window.onload = function()
   var readurl = window.location.href.split('?')[1];
   if (typeof readurl === "undefined")
 	{
-		console.log("undefined true");
+		//console.log("undefined true");
 		
 		/* start here */
 		
@@ -72,7 +72,7 @@ window.onload = function()
 		if(countriesupp == inputVal.toUpperCase() || germcountriesupp == inputVal.toUpperCase())
 		{
 			outpval=inc;
-			console.log(outpval);
+			//console.log(outpval);
 			document.getElementById("GermanwordTab1").innerHTML = Germanworddic[outpval];
 			document.getElementById("EnglishwordTab1").innerHTML = Englishworddic[outpval];
 			document.getElementById("disclaimer").style.display = "none";
@@ -90,7 +90,7 @@ window.onload = function()
 			//document.getElementById("listtablehide").style.display = "none";
 		}
 	  }
-		console.log(outpval);
+		//console.log(outpval);
 		if (inputVal == null || inputVal == "")
 		{
 			document.getElementById("disclaimer").style.display = "none";
@@ -165,11 +165,11 @@ window.onload = function()
 		var urlupdval = "?"+inputVal.replace(/\s+/g,"_");;
 		/* ends here */
 		window.history.pushState({"html":"","pageTitle":""},"", urlupdval);
-		console.log(urlupdval);
+		//console.log(urlupdval);
 	}
 	else
 	{
-		console.log("string true");
+		//console.log("string true");
 		
 	  
 	  var inc;
@@ -183,7 +183,7 @@ window.onload = function()
 		if(countriesupp == inputVal.toUpperCase() || germcountriesupp == inputVal.toUpperCase())
 		{
 			outpval=inc;
-			console.log(outpval);
+			//console.log(outpval);
 			document.getElementById("GermanwordTab1").innerHTML = Germanworddic[outpval];
 			document.getElementById("EnglishwordTab1").innerHTML = Englishworddic[outpval];
 			document.getElementById("disclaimer").style.display = "none";
@@ -200,7 +200,7 @@ window.onload = function()
 			//document.getElementById("listtablehide").style.display = "none";
 		}
 	  }
-		console.log(outpval);
+		//console.log(outpval);
 		if (repundtospace == null || repundtospace == "")
 		{
 			document.getElementById("disclaimer").style.display = "none";
@@ -281,7 +281,7 @@ function engtogerfun()
  
   
   var inputVal = document.getElementById("myInput").value;
-   console.log(inputVal);
+   //console.log(inputVal);
 	if (inputVal == null || inputVal == "")
 	{
 	document.getElementById("Dicresultsmain").style.display = "none";
@@ -321,7 +321,7 @@ function engtogerfun()
 		//document.getElementById("listtablehide").style.display = "none";
 	}
   }
-	console.log(outpval);
+	//console.log(outpval);
 	if (inputVal == null || inputVal == "")
 	{
 		document.getElementById("disclaimer").style.display = "none";
@@ -394,19 +394,19 @@ function engtogerfun()
 	var urlupdval = "?"+inputVal.replace(/\s+/g,"_");;
 	/* ends here */
 	window.history.pushState({"html":"","pageTitle":""},"", urlupdval);
-	console.log(urlupdval);
+	//console.log(urlupdval);
 
 	
   var readurl = window.location.href.split('?')[1];
   if (readurl == "" || (typeof readurl === "undefined"))
   {
 	  document.getElementById("listtablehide").style.display = "block";
-	  console.log("empty");
+	  //console.log("empty");
   }
   else if (readurl != "" || (typeof readurl !== "undefined"))
   {
 	  document.getElementById("listtablehide").style.display = "none";
-	  console.log("not empty");
+	  //console.log("not empty");
   }
 
 }

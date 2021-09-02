@@ -128,7 +128,13 @@ multiDimensionalUnique(similarmatchfull_1);
 			data: data
 		  });
 		}
-	} 
+	}
+	
+	if(document.getElementById("EnglishwordTab1").innerHTML != "--Not Available 😞 --")
+	{
+		document.getElementById("disclaimer").style.display = "none";
+		console.log("wow");
+	}
 	
 	updatetablea();
 	document.getElementById("incdeca").click();
