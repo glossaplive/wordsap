@@ -76,12 +76,12 @@
 	}
 	});
 	$(document).ready(function() {
-          $('body').bind('cut copy', function(e) {
+          $('#blockctrl').bind('cut copy', function(e) {
               e.preventDefault();
             });
         });
 	$(document).ready(function() {
-          $("body").on("contextmenu", function(e) {
+          $("#blockctrl").on("contextmenu", function(e) {
               return false;
             });
         });
@@ -148,258 +148,258 @@
 
 		
 		
-		
+		<div id="blockctrl">
+			<center>
+			<div id="Dicresultsmain" style="display:none"><u style="font-size:18px">Exact Match</u>
+				<table id="Dicresults" style="margin-top:-2px">
+				  <tr>
+					<th class="tablerowsno" style="text-align:center">S.NO.</th>
+					<th class="tableengger">ENGLISH<span style="margin-left:15px"><img src="images/eng.png" width='50px', height='30px'></img></span></th> 
+					<th class="tableengger">GERMAN<span style="margin-left:15px"><img src="images/ger.png" width='50px', height='30px'></img></span></th> 
+				  </tr>
+				  <tr>
+					<td class="tablerowsno">1</td>
+					<td id="EnglishwordTab1" >-</td>
+					<td id="GermanwordTab1">-</td>
+				  </tr>
+				</table>
+			</div>
+			<p id="disclaimer" style="display:none">We will check this word and add it into our glossary. Please try after some time.</p>
+			<button id ="gobackhome" style="display:none">⇐ Go Back !!</button>
+			</center>
+			<br>
+			
 		<center>
-		<div id="Dicresultsmain" style="display:none"><u style="font-size:18px">Exact Match</u>
-			<table id="Dicresults" style="margin-top:-2px">
-			  <tr>
+	<div id = "listtablehide"><u style="font-size:18px">List of Words</u>	
+	<table>
+	<tr style="cursor:pointer">
+		<td class="alphav" onclick="getalpha('a')">A</td>
+		<td class="alphav" onclick="getalpha('b')">B</td>
+		<td class="alphav" onclick="getalpha('c')">C</td>
+		<td class="alphav" onclick="getalpha('d')">D</td>
+		<td class="alphav" onclick="getalpha('e')">E</td>
+		<td class="alphav" onclick="getalpha('f')">F</td>
+		<td class="alphav" onclick="getalpha('g')">G</td>
+		<td class="alphav" onclick="getalpha('h')">H</td>
+		<td class="alphav" onclick="getalpha('i')">I</td>
+		<td class="alphav" onclick="getalpha('j')">J</td>
+		<td class="alphav" onclick="getalpha('k')">K</td>
+		<td class="alphav" onclick="getalpha('l')">L</td>
+		<td class="alphav" onclick="getalpha('m')">M</td>
+		<td class="alphav" onclick="getalpha('n')">N</td>
+		<td class="alphav" onclick="getalpha('o')">O</td>
+		<td class="alphav" onclick="getalpha('p')">P</td>
+		<td class="alphav" onclick="getalpha('q')">Q</td>
+		<td class="alphav" onclick="getalpha('r')">R</td>
+		<td class="alphav" onclick="getalpha('s')">S</td>
+		<td class="alphav" onclick="getalpha('t')">T</td>
+		<td class="alphav" onclick="getalpha('u')">U</td>
+		<td class="alphav" onclick="getalpha('v')">V</td>
+		<td class="alphav" onclick="getalpha('w')">W</td>
+		<td class="alphav" onclick="getalpha('x')">X</td>
+		<td class="alphav" onclick="getalpha('y')">Y</td>
+		<td class="alphav" onclick="getalpha('z')">Z</td>
+	</tr>
+	</table>
+		<table id="TableList" style="margin-top:-2px"> 
+			<tr>
 				<th class="tablerowsno" style="text-align:center">S.NO.</th>
 				<th class="tableengger">ENGLISH<span style="margin-left:15px"><img src="images/eng.png" width='50px', height='30px'></img></span></th> 
 				<th class="tableengger">GERMAN<span style="margin-left:15px"><img src="images/ger.png" width='50px', height='30px'></img></span></th> 
-			  </tr>
-			  <tr>
-				<td class="tablerowsno">1</td>
-				<td id="EnglishwordTab1" >-</td>
-				<td id="GermanwordTab1">-</td>
-			  </tr>
+			</tr>
+			<tr id="row1">
+				<td id="row1col1" class="tablerowsno"></td>
+				<td id="row1col2"></td>
+				<td id="row1col3"></td>
+			</tr>
+			<tr id="row2">
+				<td id="row2col1" class="tablerowsno"></td>
+				<td id="row2col2"></td>
+				<td id="row2col3"></td>
+			</tr>
+			<tr id="row3">
+				<td id="row3col1" class="tablerowsno"></td>
+				<td id="row3col2"></td>
+				<td id="row3col3"></td>
+			</tr>
+			<tr id="row4">
+				<td id="row4col1" class="tablerowsno"></td>
+				<td id="row4col2"></td>
+				<td id="row4col3"></td>
+			</tr>
+			<tr id="row5">
+				<td id="row5col1" class="tablerowsno"></td>
+				<td id="row5col2"></td>
+				<td id="row5col3"></td>
+			</tr>
+			<tr id="row6">
+				<td id="row6col1" class="tablerowsno"></td>
+				<td id="row6col2"></td>
+				<td id="row6col3"></td>
+			</tr>
+			<tr id="row7">
+				<td id="row7col1" class="tablerowsno"></td>
+				<td id="row7col2"></td>
+				<td id="row7col3"></td>
+			</tr>
+			<tr id="row8">
+				<td id="row8col1" class="tablerowsno"></td>
+				<td id="row8col2"></td>
+				<td id="row8col3"></td>
+			</tr>
+			<tr id="row9">
+				<td id="row9col1" class="tablerowsno"></td>
+				<td id="row9col2"></td>
+				<td id="row9col3"></td>
+			</tr>
+			<tr id="row10">
+				<td id="row10col1" class="tablerowsno"></td>
+				<td id="row10col2"></td>
+				<td id="row10col3"></td>
+			</tr>
+		</table>
+		
+		<div>
+			<table>
+			<tr>
+				<td class="pgclass" id="pgprevious" style="display:none" onclick="decsetvalue();">◄</td>
+				<td class="pgclass" id="pgno1" style="font-size:18px;font-weight:bolder;color:green" onclick="sendval('pgno1');displaytable();updatetable();ucolor('pgno1');">1</td>
+				<td class="pgclass" id="pgno2" onclick="sendval('pgno2');displaytable();updatetable();ucolor('pgno2');">2</td>
+				<td class="pgclass" id="pgno3" onclick="sendval('pgno3');displaytable();updatetable();ucolor('pgno3');">3</td>
+				<td class="pgclass" id="pgno4" onclick="sendval('pgno4');displaytable();updatetable();ucolor('pgno4');">4</td>
+				<td class="pgclass" id="pgno5" onclick="sendval('pgno5');displaytable();updatetable();ucolor('pgno5');">5</td>
+				<td class="pgclass" id="pgno6" onclick="sendval('pgno6');displaytable();updatetable();ucolor('pgno6');">6</td>
+				<td class="pgclass" id="pgno7" onclick="sendval('pgno7');displaytable();updatetable();ucolor('pgno7');">7</td>
+				<td class="pgclass" id="pgno8" onclick="sendval('pgno8');displaytable();updatetable();ucolor('pgno8');">8</td>
+				<td class="pgclass" id="pgno9" onclick="sendval('pgno9');displaytable();updatetable();ucolor('pgno9');">9</td>
+				<td class="pgclass" id="pgno10" onclick="sendval('pgno10');displaytable();updatetable();ucolor('pgno10')">10</td>
+				<td class="pgclass" id="pgnext" onclick="incsetvalue();">►</td>
+				<button id="pgvalinput" style="display:none" value=1></button>
+			</tr>
 			</table>
 		</div>
-		<p id="disclaimer" style="display:none">We will check this word and add it into our glossary. Please try after some time.</p>
-		<button id ="gobackhome" style="display:none">⇐ Go Back !!</button>
-		</center>
-		<br>
 		
-	<center>
-<div id = "listtablehide"><u style="font-size:18px">List of Words</u>	
-<table>
-<tr style="cursor:pointer">
-	<td class="alphav" onclick="getalpha('a')">A</td>
-	<td class="alphav" onclick="getalpha('b')">B</td>
-	<td class="alphav" onclick="getalpha('c')">C</td>
-	<td class="alphav" onclick="getalpha('d')">D</td>
-	<td class="alphav" onclick="getalpha('e')">E</td>
-	<td class="alphav" onclick="getalpha('f')">F</td>
-	<td class="alphav" onclick="getalpha('g')">G</td>
-	<td class="alphav" onclick="getalpha('h')">H</td>
-	<td class="alphav" onclick="getalpha('i')">I</td>
-	<td class="alphav" onclick="getalpha('j')">J</td>
-	<td class="alphav" onclick="getalpha('k')">K</td>
-	<td class="alphav" onclick="getalpha('l')">L</td>
-	<td class="alphav" onclick="getalpha('m')">M</td>
-	<td class="alphav" onclick="getalpha('n')">N</td>
-	<td class="alphav" onclick="getalpha('o')">O</td>
-	<td class="alphav" onclick="getalpha('p')">P</td>
-	<td class="alphav" onclick="getalpha('q')">Q</td>
-	<td class="alphav" onclick="getalpha('r')">R</td>
-	<td class="alphav" onclick="getalpha('s')">S</td>
-	<td class="alphav" onclick="getalpha('t')">T</td>
-	<td class="alphav" onclick="getalpha('u')">U</td>
-	<td class="alphav" onclick="getalpha('v')">V</td>
-	<td class="alphav" onclick="getalpha('w')">W</td>
-	<td class="alphav" onclick="getalpha('x')">X</td>
-	<td class="alphav" onclick="getalpha('y')">Y</td>
-	<td class="alphav" onclick="getalpha('z')">Z</td>
-</tr>
-</table>
-	<table id="TableList" style="margin-top:-2px"> 
-		<tr>
-			<th class="tablerowsno" style="text-align:center">S.NO.</th>
-			<th class="tableengger">ENGLISH<span style="margin-left:15px"><img src="images/eng.png" width='50px', height='30px'></img></span></th> 
-			<th class="tableengger">GERMAN<span style="margin-left:15px"><img src="images/ger.png" width='50px', height='30px'></img></span></th> 
-		</tr>
-		<tr id="row1">
-			<td id="row1col1" class="tablerowsno"></td>
-			<td id="row1col2"></td>
-			<td id="row1col3"></td>
-		</tr>
-		<tr id="row2">
-			<td id="row2col1" class="tablerowsno"></td>
-			<td id="row2col2"></td>
-			<td id="row2col3"></td>
-		</tr>
-		<tr id="row3">
-			<td id="row3col1" class="tablerowsno"></td>
-			<td id="row3col2"></td>
-			<td id="row3col3"></td>
-		</tr>
-		<tr id="row4">
-			<td id="row4col1" class="tablerowsno"></td>
-			<td id="row4col2"></td>
-			<td id="row4col3"></td>
-		</tr>
-		<tr id="row5">
-			<td id="row5col1" class="tablerowsno"></td>
-			<td id="row5col2"></td>
-			<td id="row5col3"></td>
-		</tr>
-		<tr id="row6">
-			<td id="row6col1" class="tablerowsno"></td>
-			<td id="row6col2"></td>
-			<td id="row6col3"></td>
-		</tr>
-		<tr id="row7">
-			<td id="row7col1" class="tablerowsno"></td>
-			<td id="row7col2"></td>
-			<td id="row7col3"></td>
-		</tr>
-		<tr id="row8">
-			<td id="row8col1" class="tablerowsno"></td>
-			<td id="row8col2"></td>
-			<td id="row8col3"></td>
-		</tr>
-		<tr id="row9">
-			<td id="row9col1" class="tablerowsno"></td>
-			<td id="row9col2"></td>
-			<td id="row9col3"></td>
-		</tr>
-		<tr id="row10">
-			<td id="row10col1" class="tablerowsno"></td>
-			<td id="row10col2"></td>
-			<td id="row10col3"></td>
-		</tr>
-	</table>
-	
-	<div>
-		<table>
-		<tr>
-			<td class="pgclass" id="pgprevious" style="display:none" onclick="decsetvalue();">◄</td>
-			<td class="pgclass" id="pgno1" style="font-size:18px;font-weight:bolder;color:green" onclick="sendval('pgno1');displaytable();updatetable();ucolor('pgno1');">1</td>
-			<td class="pgclass" id="pgno2" onclick="sendval('pgno2');displaytable();updatetable();ucolor('pgno2');">2</td>
-			<td class="pgclass" id="pgno3" onclick="sendval('pgno3');displaytable();updatetable();ucolor('pgno3');">3</td>
-			<td class="pgclass" id="pgno4" onclick="sendval('pgno4');displaytable();updatetable();ucolor('pgno4');">4</td>
-			<td class="pgclass" id="pgno5" onclick="sendval('pgno5');displaytable();updatetable();ucolor('pgno5');">5</td>
-			<td class="pgclass" id="pgno6" onclick="sendval('pgno6');displaytable();updatetable();ucolor('pgno6');">6</td>
-			<td class="pgclass" id="pgno7" onclick="sendval('pgno7');displaytable();updatetable();ucolor('pgno7');">7</td>
-			<td class="pgclass" id="pgno8" onclick="sendval('pgno8');displaytable();updatetable();ucolor('pgno8');">8</td>
-			<td class="pgclass" id="pgno9" onclick="sendval('pgno9');displaytable();updatetable();ucolor('pgno9');">9</td>
-			<td class="pgclass" id="pgno10" onclick="sendval('pgno10');displaytable();updatetable();ucolor('pgno10')">10</td>
-			<td class="pgclass" id="pgnext" onclick="incsetvalue();">►</td>
-			<button id="pgvalinput" style="display:none" value=1></button>
-		</tr>
+		<div style="margin-top:10px;display:none;">
+			<button onclick="displaytable();myFunctionfirst();firstFunction();" id="incdec">First &nbsp;</button>		
+			<button onclick="displaytable();myFunctiondec();updatetable();" id="dec">⫷ &nbsp; </button>
+			<input type="number" id="myLevel" min="1" value="1" style="border: 1px solid #ccc;border-radius:4px;font-size:12px;width:50px;height:16px;text-align:center;box-sizing: border-box;" readonly></input>
+			<span id="totalpagesdisp">	</span>
+			<button onclick="displaytable();myFunctioninc();updatetable();" id="inc">&nbsp; ⫸</button>
+			<button onclick="displaytable();myFunctionlast();lastfunction();" id="incdec">Last &nbsp;</button>
+		</div>	
+	</div>	
+
+
+	<div id="searchtable" style="display:none"><u style="font-size:18px">Similar Match</u>
+
+		<table id="TableLista" style="margin-top:-2px"> 
+			<tr>
+				<th class="tablerowsno" style="text-align:center">S.NO.</th>
+				<th class="tableengger">ENGLISH<span style="margin-left:15px"><img src="images/eng.png" width='50px', height='30px'></img></span></th> 
+				<th class="tableengger">GERMAN<span style="margin-left:15px"><img src="images/ger.png" width='50px', height='30px'></img></span></th> 
+			</tr>
+			<tr id="rowa1">
+				<td id="rowa1col1" class="tablerowsno"></td>
+				<td id="rowa1col2"></td>
+				<td id="rowa1col3"></td>
+			</tr>
+			<tr id="rowa2">
+				<td id="rowa2col1" class="tablerowsno"></td>
+				<td id="rowa2col2"></td>
+				<td id="rowa2col3"></td>
+			</tr>	
+			<tr id="rowa3">
+				<td id="rowa3col1" class="tablerowsno"></td>
+				<td id="rowa3col2"></td>
+				<td id="rowa3col3"></td>
+			</tr>
+			<tr id="rowa4">
+				<td id="rowa4col1" class="tablerowsno"></td>
+				<td id="rowa4col2"></td>
+				<td id="rowa4col3"></td>
+			</tr>
+			<tr id="rowa5">
+				<td id="rowa5col1" class="tablerowsno"></td>
+				<td id="rowa5col2"></td>
+				<td id="rowa5col3"></td>
+			</tr>
+			<tr id="rowa6">
+				<td id="rowa6col1" class="tablerowsno"></td>
+				<td id="rowa6col2"></td>
+				<td id="rowa6col3"></td>
+			</tr>
+			<tr id="rowa7">
+				<td id="rowa7col1" class="tablerowsno"></td>
+				<td id="rowa7col2"></td>
+				<td id="rowa7col3"></td>
+			</tr>
+			<tr id="rowa8">
+				<td id="rowa8col1" class="tablerowsno"></td>
+				<td id="rowa8col2"></td>
+				<td id="rowa8col3"></td>
+			</tr>
+			<tr id="rowa9">
+				<td id="rowa9col1" class="tablerowsno"></td>
+				<td id="rowa9col2"></td>
+				<td id="rowa9col3"></td>
+			</tr>
+			<tr id="rowa10">
+				<td id="rowa10col1" class="tablerowsno"></td>
+				<td id="rowa10col2"></td>
+				<td id="rowa10col3"></td>
+			</tr>
 		</table>
+		
+		<div style="margin-top:10px;" id="getpgno">		
+			<button onclick="displaytablea();myFunctionfirsta();firstFunctiona();" id="incdeca">First &nbsp;</button>		
+			<button onclick="displaytablea();myFunctiondeca();updatetablea();" id="deca">⫷ &nbsp; </button>
+
+			<input type="number" id="alevel" value="1" min="1" style="border: 1px solid #ccc;border-radius:4px;font-size:12px;width:50px;height:16px;text-align:center;box-sizing: border-box;" readonly></input>
+			<span id="totalpagesdispa">	</span>
+			<button onclick="displaytablea();myFunctioninca();updatetablea();" id="inca">&nbsp; ⫸</button>
+			<button onclick="displaytablea();myFunctionlasta();lastfunctiona();" id="incdeca">Last &nbsp;</button>
+		</div>	
+		<br><br>
 	</div>
-	
-	<div style="margin-top:10px;display:none;">
-		<button onclick="displaytable();myFunctionfirst();firstFunction();" id="incdec">First &nbsp;</button>		
-		<button onclick="displaytable();myFunctiondec();updatetable();" id="dec">⫷ &nbsp; </button>
-		<input type="number" id="myLevel" min="1" value="1" style="border: 1px solid #ccc;border-radius:4px;font-size:12px;width:50px;height:16px;text-align:center;box-sizing: border-box;" readonly></input>
-		<span id="totalpagesdisp">	</span>
-		<button onclick="displaytable();myFunctioninc();updatetable();" id="inc">&nbsp; ⫸</button>
-		<button onclick="displaytable();myFunctionlast();lastfunction();" id="incdec">Last &nbsp;</button>
-	</div>	
-</div>	
+	<a href="#idhomeindexmenu" style="text-decoration:none">
+		<div id="enggermantable">
 
-
-<div id="searchtable" style="display:none"><u style="font-size:18px">Similar Match</u>
-
-	<table id="TableLista" style="margin-top:-2px"> 
-		<tr>
-			<th class="tablerowsno" style="text-align:center">S.NO.</th>
-			<th class="tableengger">ENGLISH<span style="margin-left:15px"><img src="images/eng.png" width='50px', height='30px'></img></span></th> 
-			<th class="tableengger">GERMAN<span style="margin-left:15px"><img src="images/ger.png" width='50px', height='30px'></img></span></th> 
-		</tr>
-		<tr id="rowa1">
-			<td id="rowa1col1" class="tablerowsno"></td>
-			<td id="rowa1col2"></td>
-			<td id="rowa1col3"></td>
-		</tr>
-		<tr id="rowa2">
-			<td id="rowa2col1" class="tablerowsno"></td>
-			<td id="rowa2col2"></td>
-			<td id="rowa2col3"></td>
-		</tr>	
-		<tr id="rowa3">
-			<td id="rowa3col1" class="tablerowsno"></td>
-			<td id="rowa3col2"></td>
-			<td id="rowa3col3"></td>
-		</tr>
-		<tr id="rowa4">
-			<td id="rowa4col1" class="tablerowsno"></td>
-			<td id="rowa4col2"></td>
-			<td id="rowa4col3"></td>
-		</tr>
-		<tr id="rowa5">
-			<td id="rowa5col1" class="tablerowsno"></td>
-			<td id="rowa5col2"></td>
-			<td id="rowa5col3"></td>
-		</tr>
-		<tr id="rowa6">
-			<td id="rowa6col1" class="tablerowsno"></td>
-			<td id="rowa6col2"></td>
-			<td id="rowa6col3"></td>
-		</tr>
-		<tr id="rowa7">
-			<td id="rowa7col1" class="tablerowsno"></td>
-			<td id="rowa7col2"></td>
-			<td id="rowa7col3"></td>
-		</tr>
-		<tr id="rowa8">
-			<td id="rowa8col1" class="tablerowsno"></td>
-			<td id="rowa8col2"></td>
-			<td id="rowa8col3"></td>
-		</tr>
-		<tr id="rowa9">
-			<td id="rowa9col1" class="tablerowsno"></td>
-			<td id="rowa9col2"></td>
-			<td id="rowa9col3"></td>
-		</tr>
-		<tr id="rowa10">
-			<td id="rowa10col1" class="tablerowsno"></td>
-			<td id="rowa10col2"></td>
-			<td id="rowa10col3"></td>
-		</tr>
-	</table>
-	
-	<div style="margin-top:10px;" id="getpgno">		
-		<button onclick="displaytablea();myFunctionfirsta();firstFunctiona();" id="incdeca">First &nbsp;</button>		
-		<button onclick="displaytablea();myFunctiondeca();updatetablea();" id="deca">⫷ &nbsp; </button>
-
-		<input type="number" id="alevel" value="1" min="1" style="border: 1px solid #ccc;border-radius:4px;font-size:12px;width:50px;height:16px;text-align:center;box-sizing: border-box;" readonly></input>
-		<span id="totalpagesdispa">	</span>
-		<button onclick="displaytablea();myFunctioninca();updatetablea();" id="inca">&nbsp; ⫸</button>
-		<button onclick="displaytablea();myFunctionlasta();lastfunctiona();" id="incdeca">Last &nbsp;</button>
-	</div>	
-	<br><br>
-</div>
-<a href="#idhomeindexmenu" style="text-decoration:none">
-	<div id="enggermantable">
-
+		</div>
+	</a>	
+			</center>
+			
+			
+		<script>
+			function displaytable()
+			{
+				for (var abc = 0; abc < 10; abc++)
+				{
+					var idgenrowcol1 = "row".concat(abc+1);
+					document.getElementById(idgenrowcol1).style.display="none";
+					var idgenrowcol2 = "row".concat(abc+1);
+					document.getElementById(idgenrowcol2).style.display="none";		
+					var idgenrowcol3 = "row".concat(abc+1);
+					document.getElementById(idgenrowcol3).style.display="none";
+				}
+			}
+			function displaytablea()
+			{
+				for (var abca = 0; abca < 10; abca++)
+				{
+					
+					var idgenrowcol1 = "rowa".concat(abca+1);
+					document.getElementById(idgenrowcol1).style.display="none";
+					var idgenrowcol2 = "rowa".concat(abca+1);
+					document.getElementById(idgenrowcol2).style.display="none";		
+					var idgenrowcol3 = "rowa".concat(abca+1);
+					document.getElementById(idgenrowcol3).style.display="none";
+					console.log(123456);
+				}
+			}
+		</script>
+			<script src="js/tablelistJS.js"></script>	
+			<script src="js/searchjs.js"></script>
 	</div>
-</a>	
-		</center>
-		
-		
-	<script>
-		function displaytable()
-		{
-			for (var abc = 0; abc < 10; abc++)
-			{
-				var idgenrowcol1 = "row".concat(abc+1);
-				document.getElementById(idgenrowcol1).style.display="none";
-				var idgenrowcol2 = "row".concat(abc+1);
-				document.getElementById(idgenrowcol2).style.display="none";		
-				var idgenrowcol3 = "row".concat(abc+1);
-				document.getElementById(idgenrowcol3).style.display="none";
-			}
-		}
-		function displaytablea()
-		{
-			for (var abca = 0; abca < 10; abca++)
-			{
-				
-				var idgenrowcol1 = "rowa".concat(abca+1);
-				document.getElementById(idgenrowcol1).style.display="none";
-				var idgenrowcol2 = "rowa".concat(abca+1);
-				document.getElementById(idgenrowcol2).style.display="none";		
-				var idgenrowcol3 = "rowa".concat(abca+1);
-				document.getElementById(idgenrowcol3).style.display="none";
-				console.log(123456);
-			}
-		}
-	</script>
-		<script src="js/tablelistJS.js"></script>	
-		<script src="js/searchjs.js"></script>
-		
 		<p class="questdesc">
 		wordsap.de web site has been designed with intention to help those, who want to know the SAP terminology of <span style="color:#004FFF">English/German words.</span> This is fully based on our knowledge on SAP terms gained from real time experience. In this site you can find almost all the exact <span style="color:#004FFF">SAP terminologies </span>you look for. Translations of SAP terms, words are constantly reviewed to avoid all possible errors. However, we cannot warrant full correctness of all contents. While using this site, you agree to have read and accepted our terms of use, cookie and privacy policy. SAP and the SAP logo are registered trademarks of SAP SE. This web site is not sponsored by, affiliated with, or approved by SAP SE.
 
