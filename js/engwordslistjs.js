@@ -4127,7 +4127,7 @@ var Englishworddic =
 "consignment fill-ups",
 "consignment pick-ups",
 "payables account / liabilities account",
-"shor-time work / reduced working hours / furlough",
+"short-time work / reduced working hours / furlough",
 "shift manager",
 "direct posting / update",
 "recurring entry document / recurring document",
