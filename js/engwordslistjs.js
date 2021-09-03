@@ -4818,5 +4818,9 @@ var Englishworddic =
 "package label",
 "purchase order for material",
 "transport order",
-"purchase order release"  
+"purchase order release",
+"hourly deduction",
+"factoring",
+"training remuneration",
+"personnel calculation rule"  
 ];
