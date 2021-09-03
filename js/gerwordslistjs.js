@@ -4817,5 +4817,6 @@ var Germanworddic =
 "Belegzeile (f)",
 "Packungsetikett (n)",
 "Materialbestellung (f)",
-"Transportbedarf (m)"  
+"Transportbedarf (m)",
+"Bestellfreigabe (f)"  
 ];
