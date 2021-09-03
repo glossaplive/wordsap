@@ -4296,7 +4296,7 @@ var Germanworddic =
 "Buchungsschlüssel (m)",
 "Pausenmodell (n)",
 "Anlagenbauer (m)",
-"Spesenart (m)",
+"Spesenart (f)",
 "Rückmeldenummer (f)",
 "Stellvertretung (f)",
 "Aufpreis (m)",
@@ -4815,5 +4815,7 @@ var Germanworddic =
 "Übererfassung (f)",
 "Auftragsversion (f)",
 "Belegzeile (f)",
-"Packungsetikett (n)"  
+"Packungsetikett (n)",
+"Materialestellung (f)",
+"Transportbedarf (m)"  
 ];
