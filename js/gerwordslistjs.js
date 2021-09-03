@@ -4818,5 +4818,9 @@ var Germanworddic =
 "Packungsetikett (n)",
 "Materialbestellung (f)",
 "Transportbedarf (m)",
-"Bestellfreigabe (f)"  
+"Bestellfreigabe (f)",  
+"Stundenabzug (m)",
+"Aliquotierung (f)",
+"Ausbildungsvergütung (f)",
+"Personalrechenregel (f)"  
 ];
