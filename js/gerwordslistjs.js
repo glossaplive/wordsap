@@ -2590,7 +2590,7 @@ var Germanworddic =
 "pylon",
 "disponieren",
 "Aufarbeitungsauftrag (m)",
-"bestellung (f)",
+"Lohnbearbeitungsbestellung (f)",
 "Lohnbearbeitungsbestellanforderung (f)",
 "eingeplant",
 "Stichprobenverfahren (n)",
