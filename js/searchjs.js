@@ -13,6 +13,7 @@ function wordsearchs()
 	document.getElementById("searchtable").style.display = "block";
 	
 	console.log(getinput1);
+	getinput1 = getinput1+" ";
 	var startsimilar = [];
 	var totalsimilar = [];
 	var tempflag = 0;
@@ -68,6 +69,7 @@ function wordsearchs()
 			tempflag = 1;
 		}
 	}
+	startsimilar.sort();
 	totalsimilar.sort();
 	similarmatchfull_1 = [];
 	similarmatchfull = [];
@@ -76,6 +78,8 @@ function wordsearchs()
 	console.log(similarmatchfull_1);
 	console.log(similarmatchfull_1.length);
 	
+	
+	console.log(similarmatchfull);
 	//remove duplicates
 
 multiDimensionalUnique(similarmatchfull_1);
