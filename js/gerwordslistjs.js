@@ -871,7 +871,7 @@ var Germanworddic =
 "Kompaktklasse (f)",
 "Mittelklasse (f)",
 "Oberklasse (f)",
-"Request waiting to be imported.",
+"Auftrag steht zum Import an.",
 "Auftrag steht nochmals zum Import an.",
 "Nachrichtenart (f)",
 "Sendungsbeleg (m)",
