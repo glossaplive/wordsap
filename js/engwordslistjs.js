@@ -871,7 +871,7 @@ var Englishworddic =
 "compact",
 "intermediate",
 "full size",
-"Auftrag steht zum Import an.",
+"Request waiting to be imported.",
 "Request is ready for import again.",
 "output type",
 "shipment document",
