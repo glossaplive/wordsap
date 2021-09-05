@@ -2004,7 +2004,7 @@ var Englishworddic =
 "year change",
 "transferring initial quantities",
 "storage",
-"factoring",
+"working paper",
 "gross wage determination",
 "transfer / transaction (context-dependent)",
 "payroll schema",
