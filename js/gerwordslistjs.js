@@ -2004,7 +2004,7 @@ var Germanworddic =
 "Jahreswechsel (m)",
 "Erstdatenübernahme (f)",
 "Abstellung (f)",
-"Aliquotierung (f)",
+"Arbeitspapier (f)",
 "Bruttolohnfindung (f)",
 "Überweisung (f)",
 "Abrechnungsschema (n)",
