@@ -195,7 +195,7 @@ var Englishworddic =
 "certificate of entry",
 "countries of departure",
 "inventory records",
-"transfer of Requirements",
+"transfer of requirements",
 "forecast delivery schedules",
 "calculation run",
 "overtime approval",
