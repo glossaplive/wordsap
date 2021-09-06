@@ -4822,5 +4822,6 @@ var Germanworddic =
 "Stundenabzug (m)",
 "Aliquotierung (f)",
 "Ausbildungsvergütung (f)",
-"Personalrechenregel (f)"  
+"Personalrechenregel (f)",
+"Lieferplan [LP] (m)"  
 ];
