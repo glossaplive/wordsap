@@ -1,7 +1,7 @@
 var Germanworddic = 
 [
 "Wiederbeschaffungszeit (f)",
-"Versandstelle (f)",
+"Prüffehler (m)",
 "Richtzeit (f)",
 "Fabrikkalender (m)",
 "Instandhaltung (f)",
