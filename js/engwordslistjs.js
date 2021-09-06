@@ -4822,5 +4822,6 @@ var Englishworddic =
 "hourly deduction",
 "factoring",
 "training remuneration",
-"personnel calculation rule"  
+"personnel calculation rule",
+"scheduling agreement [SA]"  
 ];
