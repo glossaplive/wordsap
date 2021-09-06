@@ -1,7 +1,7 @@
 var Englishworddic = 
 [
 "replenishment lead time",
-"shipment point / shipping point",
+"validation error",
 "pick / pack time",
 "factory calendar",
 "plant maintenance (PM)",
