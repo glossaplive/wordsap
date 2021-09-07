@@ -4824,4 +4824,6 @@ var Germanworddic =
 "Ausbildungsvergütung (f)",
 "Personalrechenregel (f)",
 "Lieferplan [LP] (m)"  
+"Dienste zum Objekt",
+"Rückversand (m)"  
 ];
