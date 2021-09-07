@@ -4825,5 +4825,8 @@ var Englishworddic =
 "personnel calculation rule",
 "scheduling agreement [SA]",
 "object services",
-"return"
+"return",
+"service recipient",
+"cession period",
+"The bill of exchange is without VAT because it is a non-domestic taxable service."
   ];
