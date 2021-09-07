@@ -77,7 +77,7 @@ function wordsearchs()
 	similarmatchfull_1 = startsimilar.concat(totalsimilar);
 	console.log(similarmatchfull_1);
 	console.log(similarmatchfull_1.length);
-	
+	document.title = document.getElementById("myInput").value + " | WORDSAP" ;
 	
 	console.log(similarmatchfull);
 	//remove duplicates
