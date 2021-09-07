@@ -4825,5 +4825,5 @@ var Englishworddic =
 "personnel calculation rule",
 "scheduling agreement [SA]",
 "object services",
-"return"  
+"return"
 ];
