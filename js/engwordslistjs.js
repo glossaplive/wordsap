@@ -4823,5 +4823,7 @@ var Englishworddic =
 "factoring",
 "training remuneration",
 "personnel calculation rule",
-"scheduling agreement [SA]"  
+"scheduling agreement [SA]",
+"object services",
+"return"  
 ];
