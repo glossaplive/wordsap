@@ -4825,5 +4825,8 @@ var Germanworddic =
 "Personalrechenregel (f)",
 "Lieferplan [LP] (m)", 
 "Dienste zum Objekt",
-"Rückversand (m)"
+"Rückversand (m)",
+"Leistungsempfänger (m)",
+"Abgabezeitraum (m)",
+"Der Rechnungsusweis erfolgt ohne Umsatzsteuer, da es sich um eine nicht im Inland steuerbare Leistung handelt."
   ];
