@@ -4823,7 +4823,7 @@ var Germanworddic =
 "Aliquotierung (f)",
 "Ausbildungsvergütung (f)",
 "Personalrechenregel (f)",
-"Lieferplan [LP] (m)"  
+"Lieferplan [LP] (m)", 
 "Dienste zum Objekt",
 "Rückversand (m)"
   ];
