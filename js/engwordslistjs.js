@@ -4828,5 +4828,8 @@ var Englishworddic =
 "return",
 "service recipient",
 "cession period",
-"The bill of exchange is without VAT because it is a non-domestic taxable service."
+"The bill of exchange is without VAT because it is a non-domestic taxable service.",
+"threshold",
+"limit value",
+"area of responsibility"
   ];
