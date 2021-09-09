@@ -4831,5 +4831,8 @@ var Englishworddic =
 "The bill of exchange is without VAT because it is a non-domestic taxable service.",
 "threshold",
 "limit value",
-"area of responsibility"
-  ];
+"area of responsibility",
+"delivery lines",
+"load file",
+"All parameters are mandatory."  
+  ]
