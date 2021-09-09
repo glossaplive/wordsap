@@ -4831,5 +4831,8 @@ var Germanworddic =
 "Der Rechnungsusweis erfolgt ohne Umsatzsteuer, da es sich um eine nicht im Inland steuerbare Leistung handelt.",
 "Grenzwert (m)",
 "Grenzwert (m)",
-"Verantwortungsbereich (m)"
+"Verantwortungsbereich (m)",
+"Einteilungen (pl) (f)",
+"Load-Datei (f)",
+"Alle Parameter sind obligatorisch."
   ];
