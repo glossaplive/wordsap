@@ -4834,5 +4834,6 @@ var Englishworddic =
 "area of responsibility",
 "delivery lines",
 "load file",
-"All parameters are mandatory."
+"All parameters are mandatory.",
+"partial delivery agreement"
   ];
