@@ -4835,5 +4835,5 @@ var Germanworddic =
 "Einteilungen (pl) (f)",
 "Load-Datei (f)",
 "Alle Parameter sind obligatorisch.",
-"Teillieferungsvereinbarung (f)",
+"Teillieferungsvereinbarung (f)"
   ];
