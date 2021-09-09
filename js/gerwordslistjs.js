@@ -4834,5 +4834,6 @@ var Germanworddic =
 "Verantwortungsbereich (m)",
 "Einteilungen (pl) (f)",
 "Load-Datei (f)",
-"Alle Parameter sind obligatorisch."
+"Alle Parameter sind obligatorisch.",
+"Teillieferungsvereinbarung (f)",
   ];
