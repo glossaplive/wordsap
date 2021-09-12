@@ -144,6 +144,11 @@ multiDimensionalUnique(similarmatchfull_1);
 		document.getElementById("disclaimer").style.display = "none";
 		console.log("wow");
 	}
+	if(document.getElementById("exacte1").innerHTML == "--Not Available 😞 --")
+	{
+		document.getElementById("disclaimer").style.display = "block";
+		console.log("wow block");
+	}
 	
 	updatetablea();
 	document.getElementById("incdeca").click();
