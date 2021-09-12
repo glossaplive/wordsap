@@ -139,16 +139,88 @@ multiDimensionalUnique(similarmatchfull_1);
 		document.getElementById("disclaimer").style.display = "none";
 		console.log("wow");
 	}
+	if(document.getElementById("exacte1").innerHTML != "--Not Available 😞 --")
+	{
+		document.getElementById("disclaimer").style.display = "none";
+		console.log("wow");
+	}
 	
 	updatetablea();
 	document.getElementById("incdeca").click();
 	
 	}
-	  }
-	 else 
-	 {
-		 document.getElementById("searchtable").style.display = "none";
-	 }
+	}
+		else 
+		{
+			document.getElementById("searchtable").style.display = "none";
+		}
+	 
+	exactematch = []; 
+	document.getElementById("exactmatch").style.display = "none";
+	for (totalvalem = 0; totalvalem < Englishworddic.length; totalvalem ++)
+	{
+		var inputVale = document.getElementById("myInput").value;
+		if (inputVale == Englishworddic[totalvalem])
+		{
+			exactematch.push([Englishworddic[totalvalem], Germanworddic[totalvalem]]);
+		}
+		
+		else if (inputVale == Germanworddic[totalvalem])
+		{
+			exactematch.push([Englishworddic[totalvalem], Germanworddic[totalvalem]]);
+		}
+	}
+	console.log(exactematch);
+	for(disapp = 1; disapp <= 10; disapp ++)
+	{
+		/* dummye = "exacte"+disapp;
+		dummyg = "exactg"+disapp;
+		dummys = "exacts"+disapp;
+		document.getElementById(dummye).style.display = "none";
+		document.getElementById(dummyg).style.display = "none";
+		document.getElementById(dummys).style.display = "none";*/
+		
+		dummye = "exactrow"+disapp;
+		console.log(dummye);
+		document.getElementById(dummye).style.display = "none";
+	}
+	if (exactematch.length > 0)
+	{
+		document.getElementById("exactmatch").style.display = "block";
+	
+	
+	for(popule = 0; popule < exactematch.length; popule ++)
+	{
+		populeinc = popule+1;
+		dummype = "exacte"+populeinc;
+		dummypg = "exactg"+populeinc;
+		dummyps = "exacts"+populeinc;
+		console.log(dummype);
+		console.log(dummypg);
+		console.log(dummyps);
+		/*document.getElementById(dummype).style.display = "inline-block";
+		document.getElementById(dummypg).style.display = "inline-block";
+		document.getElementById(dummyps).style.display = "inline-block"; */
+		
+		dummye = "exactrow"+populeinc;
+		document.getElementById(dummye).style.display = "table-row";
+		
+		document.getElementById(dummype).innerHTML = exactematch[popule][0];
+		document.getElementById(dummypg).innerHTML = exactematch[popule][1];
+		document.getElementById(dummyps).innerHTML = populeinc;
+		
+	}
+	}
+	else if(exactematch.length == 0 && similarmatchfull.length == 0)
+	{
+		document.getElementById("exactmatch").style.display = "block";
+		
+		document.getElementById('exactrow1').style.display = "table-row";
+		
+		document.getElementById('exacte1').innerHTML = "--Not Available 😞 --";
+		document.getElementById('exactg1').innerHTML = "--Nicht verfügbar 😞 --";
+		document.getElementById('exacts1').innerHTML = "1";
+	}
 }
 
 function myFunctionfirsta()

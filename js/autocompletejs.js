@@ -23,6 +23,7 @@ function autocomplete(inp, arr) {
 	  var germandictsearchjs = [];
 	  var englishdictindexsearchjs = [];
 	  var germandictindexsearchjs = [];
+	  
       for (i = 0; i < arr.length; i++) 
 	  {
 		/* console.log(arr[i].substr(0, val.length).toUpperCase());
@@ -57,6 +58,16 @@ function autocomplete(inp, arr) {
 		  }  
 		  itemp = itemp +1;
 		  b.setAttribute("style", "text-align:left");
+		  
+		  b.addEventListener("keydown", function (e) {
+				if (e.keyCode === 13) 
+				{  //checks whether the pressed key is "Enter"
+					inp.value = this.getElementsByTagName("input")[0].value;
+					wordsearchs();
+					
+				}
+			});
+		  //b.addEventListener("keydown", wordsearchs, false);
           /*execute a function when someone clicks on the item value (DIV element):*/
           b.addEventListener("click", function(e) {
               /*insert the value for the autocomplete text field:*/
@@ -66,6 +77,7 @@ function autocomplete(inp, arr) {
               closeAllLists();
           });
 		  b.addEventListener("click", wordsearchs, false);
+		  
           a.appendChild(b);
         }
 		else if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase() && itemp >= 4 && jtemp < 1) 
@@ -79,6 +91,7 @@ function autocomplete(inp, arr) {
           c.innerHTML = "more";
 		  c.setAttribute("style", "text-align:left");
 		  c.addEventListener("click", wordsearchs, false);
+		  
           c.addEventListener("click", function(e) 
 		  {
               /*insert the value for the autocomplete text field:*/
