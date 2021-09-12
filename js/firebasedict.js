@@ -1,11 +1,11 @@
 var listeninput1 = document.getElementById("myInput");
-// listeninput1.addEventListener("keydown", function (e) {
-    // if (e.keyCode === 13) {  //checks whether the pressed key is "Enter"
-        // engtogerfun();
-		// wordsearchs();
+listeninput1.addEventListener("keydown", function (e) {
+    if (e.keyCode === 13) {  //checks whether the pressed key is "Enter"
+        engtogerfun();
+	 wordsearchs();
 		
-    // }
-// });
+     }
+ });
 
 
 window.onload = function()
