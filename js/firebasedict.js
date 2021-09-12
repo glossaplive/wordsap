@@ -16,6 +16,8 @@ window.onload = function()
   {
 	  //console.log("has value");
 	  var repundtospace = readurl.replace(/_/g, ' ');
+	  
+		  
 	  repundtospace = repundtospace.replace("%C3%84", 'Ä');
 	  repundtospace = repundtospace.replace("%C3%A4", 'ä');
 	  repundtospace = repundtospace.replace("%C3%B6", 'ö');

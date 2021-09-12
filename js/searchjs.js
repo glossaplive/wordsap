@@ -6,7 +6,7 @@ function wordsearchs()
 	  {
 	document.getElementById("searchtable").style.display = "block";
 	document.getElementById("Dicresultsmain").style.display = "block";
-	document.getElementById("disclaimer").style.display = "block";
+	//document.getElementById("disclaimer").style.display = "block";
 	var getinput1 = document.getElementById("myInput").value;
 	if (getinput1 != "" || (typeof getinput1 !== "undefined") )
 	{
@@ -148,6 +148,10 @@ multiDimensionalUnique(similarmatchfull_1);
 	{
 		document.getElementById("disclaimer").style.display = "block";
 		console.log("wow block");
+	}
+	if(similarmatchfull.length > 0)
+	{
+		document.getElementById("disclaimer").style.display = "none";
 	}
 	
 	updatetablea();
