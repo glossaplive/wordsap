@@ -1,11 +1,11 @@
 var listeninput1 = document.getElementById("myInput");
-listeninput1.addEventListener("keydown", function (e) {
-    if (e.keyCode === 13) {  //checks whether the pressed key is "Enter"
-        engtogerfun();
-	 wordsearchs();
+// listeninput1.addEventListener("keydown", function (e) {
+    // if (e.keyCode === 13) {  //checks whether the pressed key is "Enter"
+        // engtogerfun();
+		// wordsearchs();
 		
-     }
- });
+    // }
+// });
 
 
 window.onload = function()
@@ -17,7 +17,8 @@ window.onload = function()
 	  //console.log("has value");
 	  var repundtospace = readurl.replace(/_/g, ' ');
 	  
-		  
+	  for (tei = 0; tei< 10; tei++)
+	  {
 	  repundtospace = repundtospace.replace("%C3%84", 'Ä');
 	  repundtospace = repundtospace.replace("%C3%A4", 'ä');
 	  repundtospace = repundtospace.replace("%C3%B6", 'ö');
@@ -25,6 +26,7 @@ window.onload = function()
 	  repundtospace = repundtospace.replace("%C3%9F", 'ß');
 	  repundtospace = repundtospace.replace("%C3%96", 'Ö');
 	  repundtospace = repundtospace.replace("%C3%9C", 'Ü');
+	  }
 	  console.log(repundtospace);
 	  console.log(typeof(repundtospace));
 	  document.getElementById("myInput").value = repundtospace;
