@@ -2,9 +2,12 @@ function autocomplete(inp, arr) {
   /*the autocomplete function takes two arguments,
   the text field element and an array of possible autocompleted values:*/
   var currentFocus;
+ var defaultvalinp;
   /*execute a function when someone writes in the text field:*/
   inp.addEventListener("input", function(e) {
       var a, b, i, val = this.value;
+	   defaultvalinp = document.getElementById("myInput").value;
+  console.log(defaultvalinp);
       /*close any already open lists of autocompleted values*/
       closeAllLists();
       if (!val) { return false;}
@@ -17,6 +20,7 @@ function autocomplete(inp, arr) {
       /*append the DIV element as a child of the autocomplete container:*/
       this.parentNode.appendChild(a);
       /*for each item in the array...*/
+	  
 	  var itemp = 0;
 	  var jtemp = 0;
 	  var englishdictsearchjs = [];
@@ -110,6 +114,7 @@ function autocomplete(inp, arr) {
   /*execute a function presses a key on the keyboard:*/
   inp.addEventListener("keydown", function(e) {
       var x = document.getElementById(this.id + "autocomplete-list");
+	  
       if (x) x = x.getElementsByTagName("div");
       if (e.keyCode == 40) {
         /*If the arrow DOWN key is pressed,
@@ -125,15 +130,17 @@ function autocomplete(inp, arr) {
         addActive(x);
       } else if (e.keyCode == 13) {
         /*If the ENTER key is pressed, prevent the form from being submitted,*/
-        e.preventDefault();
+        //e.preventDefault();
         if (currentFocus > -1) {
           /*and simulate a click on the "active" item:*/
           if (x) x[currentFocus].click();
         }
       }
   });
+  
   function addActive(x) {
     /*a function to classify an item as "active":*/
+	
     if (!x) return false;
     /*start by removing the "active" class on all items:*/
     removeActive(x);
@@ -141,6 +148,20 @@ function autocomplete(inp, arr) {
     if (currentFocus < 0) currentFocus = (x.length - 1);
     /*add class "autocomplete-active":*/
     x[currentFocus].classList.add("autocomplete-active");
+	
+	var currval1 = x[currentFocus].innerHTML;
+	var currval2 = currval1.substring(currval1.indexOf('value="') + 7);
+	console.log(currval2.slice(0, -2));
+	
+	if (currval2.slice(0, -2) == null || currval2.slice(0, -2) == '')
+	{
+		document.getElementById("myInput").value = defaultvalinp;
+	}
+	else 
+	{
+		document.getElementById("myInput").value = currval2.slice(0, -2);
+	}
+	
   }
   function removeActive(x) {
     /*a function to remove the "active" class from all autocomplete items:*/
@@ -151,6 +172,7 @@ function autocomplete(inp, arr) {
   function closeAllLists(elmnt) {
     /*close all autocomplete lists in the document,
     except the one passed as an argument:*/
+	
     var x = document.getElementsByClassName("autocomplete-items");
     for (var i = 0; i < x.length; i++) {
       if (elmnt != x[i] && elmnt != inp) {

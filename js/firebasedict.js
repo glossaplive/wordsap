@@ -1,11 +1,11 @@
 var listeninput1 = document.getElementById("myInput");
-// listeninput1.addEventListener("keydown", function (e) {
-    // if (e.keyCode === 13) {  //checks whether the pressed key is "Enter"
-        // engtogerfun();
-		// wordsearchs();
+listeninput1.addEventListener("keydown", function (e) {
+    if (e.keyCode === 13) {  //checks whether the pressed key is "Enter"
+         engtogerfun();
+		 wordsearchs();
 		
-    // }
-// });
+     }
+});
 
 
 window.onload = function()
@@ -330,7 +330,8 @@ function engtogerfun()
 	{
 		document.getElementById("GermanwordTab1").innerHTML = "--Nicht verfügbar 😞 --";
 		document.getElementById("EnglishwordTab1").innerHTML = "--Not Available 😞 --";		
-		document.getElementById("disclaimer").style.display = "block";
+		//document.getElementById("disclaimer").style.display = "block";
+		//console.log("123none");
 		//document.getElementById("listtablehide").style.display = "none";
 	}
   }
