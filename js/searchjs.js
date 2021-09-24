@@ -13,7 +13,11 @@ function wordsearchs()
 	document.getElementById("searchtable").style.display = "block";
 	
 	console.log(getinput1);
-	getinput1 = getinput1+" ";
+	if (getinput1.slice(-1) != " ")
+	{
+		getinput1 = getinput1+" ";
+	}
+	
 	var startsimilar = [];
 	var totalsimilar = [];
 	var tempflag = 0;
@@ -50,7 +54,9 @@ function wordsearchs()
 		if (Germanworddic[temptg].substr(0, getinput1.length).toUpperCase() == getinput1.toUpperCase() && Germanworddic[temptg].toUpperCase() != getinput1.toUpperCase())
 			{
 			  // startsimilar.push(Englishworddic[temptg]);
-			  startsimilar.push([Englishworddic[temptg], Germanworddic[temptg]]);
+			  streng = Englishworddic[temptg];
+			  "<i>EN &nbsp</i>"+"<strong>" + arr[i].substr(0, val.length) + "</strong>";
+			  startsimilar.push(["<i>EN &nbsp</i>"+"<strong>" +streng.substr(streng.indexOf(getinput1), getinput1.length)+ "</strong>", Germanworddic[temptg]]);
 			}
 		else if ((Germanworddic[temptg].indexOf(getinput1) > -1) && (Germanworddic[temptg].substr(0, getinput1.length).toUpperCase() != getinput1.toUpperCase()) && Germanworddic[temptg].toUpperCase() != getinput1.toUpperCase())
 			{
@@ -152,6 +158,7 @@ multiDimensionalUnique(similarmatchfull_1);
 	if(similarmatchfull.length > 0)
 	{
 		document.getElementById("disclaimer").style.display = "none";
+		console.log("none1");
 	}
 	
 	updatetablea();
