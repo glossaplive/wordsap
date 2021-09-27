@@ -4657,7 +4657,7 @@ var Germanworddic =
 "negative Leistungserfassung (f)",
 "Produktauslauf (m)",
 "Auslaufsteuerung (f)",
-"Serviceleitung (f) / Serviceaktivität (f)",
+"Serviceaktivität (f)",
 "Indexstände (f) (pl)",
 "Zeitprofil (n)",
 "Erfassungsart (f)",
