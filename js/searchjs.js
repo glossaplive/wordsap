@@ -53,10 +53,7 @@ function wordsearchs()
 		
 		if (Germanworddic[temptg].substr(0, getinput1.length).toUpperCase() == getinput1.toUpperCase() && Germanworddic[temptg].toUpperCase() != getinput1.toUpperCase())
 			{
-			  // startsimilar.push(Englishworddic[temptg]);
-			  streng = Englishworddic[temptg];
-			  "<i>EN &nbsp</i>"+"<strong>" + arr[i].substr(0, val.length) + "</strong>";
-			  startsimilar.push(["<i>EN &nbsp</i>"+"<strong>" +streng.substr(streng.indexOf(getinput1), getinput1.length)+ "</strong>", Germanworddic[temptg]]);
+			  startsimilar.push([Englishworddic[temptg], Germanworddic[temptg]]);
 			}
 		else if ((Germanworddic[temptg].indexOf(getinput1) > -1) && (Germanworddic[temptg].substr(0, getinput1.length).toUpperCase() != getinput1.toUpperCase()) && Germanworddic[temptg].toUpperCase() != getinput1.toUpperCase())
 			{
