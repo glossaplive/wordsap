@@ -38,9 +38,92 @@
 			<!--<a href="admin.html" id="hiadmin">ADMIN LOGIN</a>-->
 			<a href="javascript:void(0);" class="icon" onclick="topnavbar()">☰</a>
 		</div>
+		<br><br>
+		
+		<script>
+			function opclose1()
+			{
+				document.getElementById("gram").style.display = "block";
+				document.getElementById("glos").style.display = "none";
+			}
+			function opclose2()
+			{
+				document.getElementById("gram").style.display = "none";
+				document.getElementById("glos").style.display = "block";
+			}
+		</script>
+		
 		<center>
 		
-		<div class="row" style="margin-top:30px">
+		<div style="width:90%;background-color:#004069;padding:5px;color:white;cursor:pointer;" onclick="opclose1();">GRAMMER ➤</div>
+		
+		
+		<div id="gram" class="row" style="margin-top:30px;display:block">
+			<div class="column">
+				<a href="grammer/Alphabets.html">
+					<img class="imgglos" src="images/maingrammer/Alphabets.jpg"></img>
+					<p>Alphabets</p>
+				</a>
+			</div>
+			<div class="column">
+				<a href="grammer/Basic_greetings.html">
+					<img class="imgglos" src="images/maingrammer/Basic_greetings.jpg"></img>
+					<p>Basic greetings</p>
+				</a>
+			</div>
+			<div class="column">
+				<a href="grammer/Nominative_case.html">
+					<img class="imgglos" src="images/maingrammer/Nominative_case.jpg"></img>
+					<p>Nominative case</p>
+				</a>
+			</div>
+			<div class="column">
+				<a href="grammer/Verb_Conjugation.html">
+					<img class="imgglos" src="images/maingrammer/Verb_Conjugation.jpg"></img>
+					<p>Verb Conjugation</p>
+				</a>
+			</div>
+			<div class="column">
+				<a href="grammer/Accusative_case.html">
+					<img class="imgglos" src="images/maingrammer/Accusative_case.jpg"></img>
+					<p>Accusative case</p>
+				</a>
+			</div>
+			<div class="column">
+				<a href="grammer/Numbers.html">
+					<img class="imgglos" src="images/maingrammer/Numbers.jpg"></img>
+					<p>Numbers</p>
+				</a>
+			</div>
+			<div class="column">
+				<a href="grammer/datetime.html">
+					<img class="imgglos" src="images/maingrammer/datetime.jpg"></img>
+					<p>Date & Time</p>
+				</a>
+			</div>
+			<div class="column">
+				<a href="grammer/Dative_case.html">
+					<img class="imgglos" src="images/maingrammer/Dative_case.jpg"></img>
+					<p>Dative case</p>
+				</a>
+			</div>
+			<div class="column">
+				<a href="grammer/Possessive_case.html">
+					<img class="imgglos" src="images/maingrammer/Possessive_case.jpg"></img>
+					<p>Possessive case</p>
+				</a>
+			</div>
+			<div class="column">
+				<a href="grammer/wquestions.html">
+					<img class="imgglos" src="images/maingrammer/wquestions.jpg"></img>
+					<p>W-questions</p>
+				</a>
+			</div>
+		</div>
+		<br>
+		<div style="width:90%;background-color:#004069;padding:5px;color:white;cursor:pointer;" onclick="opclose2();">GLOSSARY ➤</div>
+		
+		<div id="glos" class="row" style="margin-top:30px;display:none">
 			<div class="column">
 				<a href="glossary/animalKingdom.html">
 					<img class="imgglos" src="images/mainglos/animal kingdom.jpg"></img>
