@@ -23,12 +23,15 @@
 
 	
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script>
 	document.onkeydown = function(e) {
 			if (e.ctrlKey && 
 				(e.keyCode === 67 || 
 				 e.keyCode === 86 || 
 				 e.keyCode === 85 || 
+				 e.keyCode === 80 ||
+				 e.keyCode === 112 ||
 				 e.keyCode === 117)) {
 				return false;
 			} else {
@@ -46,18 +49,26 @@
 	}
 	});
 	$(document).ready(function() {
-          $('#blockctrl').bind('cut copy', function(e) {
+          $('body').bind('cut copy', function(e) {
               e.preventDefault();
             });
         });
 	$(document).ready(function() {
-          $("#blockctrl").on("contextmenu", function(e) {
+          $("body").on("contextmenu", function(e) {
               return false;
             });
         });
+	
+	
 	</script>
+	<script type="text/javascript"> $(document).ready(function() {
+    $(window).keyup(function(e){
+      if(e.keyCode == 44){
+        $("body").hide();
+      }
 
-
+    }); }); 
+	</script>
 	<center>	
 		<!--<div class="indextop">
 			<img class="innerindextop" src="images/sapdictlogo.PNG" width='60px', height='60px'></img>
