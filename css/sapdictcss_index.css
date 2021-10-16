@@ -93,6 +93,32 @@ body {
 }
 /*Table CSS ENDS Here*/
 
+/*Table CSS*/
+#TableListgg {
+  margin-top:20px;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+#TableListgg td, #TableListgg th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#TableListgg tr:nth-child(even){background-color: #CAD6F4;}
+
+#TableListgg tr:hover {background-color: #dedcbf;}
+
+#TableListgg th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  /* background-color: #272536; */
+  background-color: #7092BE;
+  color: white;
+}
+/*Table CSS ENDS Here*/
+
 #TableLista {
   margin-top:20px;
   border-collapse: collapse;
@@ -178,8 +204,8 @@ body {
   padding-top: 8px;
   padding-bottom: 6px;
 }
-#TableList, #TableLista {width:100%;font-size:14px;}
-#TableList th,#TableList td, #TableLista th, #TableLista td {
+#TableList, #TableLista, #TableListgg {width:100%;font-size:14px;}
+#TableList th,#TableList td, #TableLista th, #TableLista td,  #TableListgg th,  #TableListgg td {
   padding-top: 8px;
   padding-bottom: 6px;
 }
