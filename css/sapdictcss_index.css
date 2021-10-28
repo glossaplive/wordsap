@@ -81,7 +81,7 @@ body {
 
 #TableList tr:nth-child(even){background-color: #CAD6F4;}
 
-#TableList tr:hover {background-color: #f7ba48;}
+#TableList tr:hover {background-color: #ffc875;}
 
 #TableList th {
   padding-top: 12px;
@@ -107,7 +107,7 @@ body {
 
 #TableListgg tr:nth-child(even){background-color: #CAD6F4;}
 
-#TableListgg tr:hover {background-color: #f7ba48;}
+#TableListgg tr:hover {background-color: #ffc875;}
 
 #TableListgg th {
   padding-top: 12px;
@@ -132,7 +132,7 @@ body {
 
 #TableLista tr:nth-child(even){background-color: #CAD6F4;}
 
-#TableLista tr:hover {background-color: #f7ba48;}
+#TableLista tr:hover {background-color: #ffc875;}
 
 #TableLista th {
   padding-top: 12px;
