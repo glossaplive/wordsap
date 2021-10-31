@@ -15,10 +15,20 @@
 {
 	padding:5px;
 }
+.quesstyle
+{
+	width:50%;
+	text-align:left;
+	padding:25px;
+}
 .questdesc
 {
 	width:50%;
 	text-align:justify;
+}
+.gradebox
+{
+	width:30%;
 }
 .nextbtn
 {
@@ -59,5 +69,9 @@
 .questdesc
 {
 	width:95%;
+}
+.quesstyle
+{
+	width:90%;
 }
 }
