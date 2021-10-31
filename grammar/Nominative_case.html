@@ -15,6 +15,9 @@
 		<script src="../js/sapdictjs_navbar.js"></script>
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<style type="text/css" media="print">
+			* { display: none; }
+		</style>
 </head>
 	<body>
 		<div id="fb-root"></div>
@@ -32,6 +35,9 @@
 				 e.keyCode === 85 || 
 				 e.keyCode === 80 || e.keyCode === 83 ||
 				 e.keyCode === 112 ||
+				 e.key == "p" ||
+				 e.keyCode === 16 ||
+				 e.keyCode === 80 ||
 				 e.keyCode === 117)) {
 				return false;
 			} else {
