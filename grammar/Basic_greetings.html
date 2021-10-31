@@ -282,11 +282,12 @@
 
 <p>
 
+<div class="quesstyle">
+
 <b>Question 1.
 
 <br>Guten Morgen, Frau Nancy!<br></b>
 
-<blockquote>
 
 <input type="radio" name="q1" value="Good Morning, Mrs Nancy!">Good Morning, Mrs Nancy!<br>
 
@@ -294,17 +295,18 @@
 
 <input type="radio" name="q1" value="Good Night, Mrs Nancy!">Good Night, Mrs Nancy!<br>
 
-</blockquote>
+</div>
 
 <p><b>
 
 <hr>
 
+<div class="quesstyle">
+
 Question 2.
 
 <br>Gute Reise, Herr Stanley! <br></b>
 
-<blockquote>
 
 <input type="radio" name="q2" value="Good day, Mr Stanley!">Good day, Mr Stanley!<br>
 
@@ -312,17 +314,17 @@ Question 2.
 
 <input type="radio" name="q2" value="Bon voyage Mr Stanley">Bon voyage Mr Stanley<br>
 
-</blockquote>
+</div>
 
 <p><b>
 
 <hr>
 
+<div class="quesstyle">
+
 Question 3.
 
 <br>Moin!<br></b>
-
-<blockquote>
 
 <input type="radio" name="q3" value="good bye">good bye<br>
 
@@ -330,17 +332,17 @@ Question 3.
 
 <input type="radio" name="q3" value="hello">hello<br>
 
-</blockquote>
+</div>
 
 <p><b>
 
 <hr>
 
+<div class="quesstyle">
+
 Question 4.
 
 <br>Tschüß<br></b>
-
-<blockquote>
 
 <input type="radio" name="q4" value="good luck">good luck<br>
 
@@ -348,17 +350,17 @@ Question 4.
 
 <input type="radio" name="q4" value="hi">hi<br>
 
-</blockquote>
+</div>
 
 <p><b>
 
 <hr>
 
+<div class="quesstyle">
+
 Question 5.
 
 <br>Nein<br></b>
-
-<blockquote>
 
 <input type="radio" name="q5" value="no">no<br>
 
@@ -366,17 +368,17 @@ Question 5.
 
 <input type="radio" name="q5" value="not">not<br>
 
-</blockquote>
+</div>
 
 <p><b>
 
 <hr>
 
+<div class="quesstyle">
+
 Question 6.
 
 <br>Happy birthday<br></b>
-
-<blockquote>
 
 <input type="radio" name="q6" value="Mahlzeit">Mahlzeit<br>
 
@@ -384,15 +386,17 @@ Question 6.
 
 <input type="radio" name="q6" value="Alles Gute zum Geburtstag">Alles Gute zum Geburtstag<br>
 
-</blockquote>
+</div>
 
 <p><b>
+
+<hr>
+
+<div class="quesstyle">
 
 Question 7.
 
 <br>Enjoy your meal<br></b>
-
-<blockquote>
 
 <input type="radio" name="q7" value="Danke">Danke<br>
 
@@ -400,17 +404,17 @@ Question 7.
 
 <input type="radio" name="q7" value="Wunderbar">Wunderbar<br>
 
-</blockquote>
+</div>
 
 <p><b>
 
 <hr>
 
+<div class="quesstyle">
+
 Question 8.
 
 <br>No problem<br></b>
-
-<blockquote>
 
 <input type="radio" name="q8" value="Nein Problem">Nein Problem<br>
 
@@ -418,17 +422,17 @@ Question 8.
 
 <input type="radio" name="q8" value="Kein Problem">Kein Problem<br>
 
-</blockquote>
+</div>
 
 <p><b>
 
 <hr>
 
+<div class="quesstyle">
+
 Question 9.
 
 <br>Godspeed<br></b>
-
-<blockquote>
 
 <input type="radio" name="q9" value="Viel Glück">Viel Glück<br>
 
@@ -436,17 +440,18 @@ Question 9.
 
 <input type="radio" name="q9" value="a & b">a & bbr>
 
-</blockquote>
+</div>
 
 <p><b>
 
 <hr>
 
+<div class="quesstyle">
+
 Question 10.
 
 <br>Have fun!<br></b>
 
-<blockquote>
 
 <input type="radio" name="q10" value="Vielen Dank">Vielen Dank<br>
 
@@ -454,7 +459,7 @@ Question 10.
 
 <input type="radio" name="q10" value="bitte">bitte<br>
 
-</blockquote>
+</div>
 
 <!--<p><b>
 
@@ -548,14 +553,26 @@ Question 15.
 
 <p><b>
 
-<input type="button"value="Grade Me"onClick="getScore(this.form);">
+<input type="button" value="Grade Me" onClick="getScore(this.form);">
 
 <input type="reset" value="Clear"><p>
 
-Number of score out of 10 = <input type= text size 10 name= "mark">
+<table>
 
-Score in percentage = <input type=text size=10 name="percentage"><br>
+<tr>
+<td><span>Number of score out of 10 = </span></td>
 
+<td><input type= text size 10 name= "mark" class="gradebox" style="width:40px"></td>
+</tr>
+
+<br>
+
+<tr>
+<td><span>Score in percentage = </span></td>
+
+<td><input type = text size 10 name="percentage" class="gradebox" style="width:40px"><br></td>
+</tr>
+</table>
 </form>
 
 <p>
@@ -681,6 +698,7 @@ Share on:
 		<div class="fb-share-button" data-href="https://wordsap.de/learngerman.html" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwordsap.de%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
 		<a id="whatsid" href="https://api.whatsapp.com/send?text=https://wordsap.de" target="_blank"><img src="../images/icon/wa.png" width="30px" height="30px"></img></a>
 		<a id="emailid" href="mailto:admin@wordsap.de?cc=glossaplive@gmail.com&subject=https://wordsap.de/.&body=https://wordsap.de"><img src="../images/icon/gm.png" width="27px" height="27px"></img></a>
+
 <br><br>
 © wordsap.de, 2021
 <br><br>
