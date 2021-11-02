@@ -4835,5 +4835,6 @@ var Englishworddic =
 "delivery lines",
 "load file",
 "All parameters are mandatory.",
-"partial delivery agreement"
+"partial delivery agreement",
+ "create general [menu item]"
   ];
