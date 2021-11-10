@@ -4841,4 +4841,4 @@ var Englishworddic =
   "supplier invoice / vendor invoice",
   "payment clearing",
   "vendor down payment",
-  "splitting method"];
+  "splitting method";
