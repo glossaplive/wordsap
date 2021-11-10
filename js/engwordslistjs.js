@@ -4836,5 +4836,9 @@ var Englishworddic =
 "load file",
 "All parameters are mandatory.",
 "partial delivery agreement",
- "create (general) [menu item]"
+ "create (general) [menu item]",
+  "supplier accounting document",
+  "supplier invoice / vendor invoice",
+  "vendor down payment",
+  "splitting method"
   ];
