@@ -4839,6 +4839,6 @@ var Englishworddic =
  "create (general) [menu item]",
   "supplier accounting document",
   "supplier invoice / vendor invoice",
+  "payment clearing",
   "vendor down payment",
-  "splitting method"
-  ];
+  "splitting method"];
