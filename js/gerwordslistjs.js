@@ -4836,5 +4836,11 @@ var Germanworddic =
 "Load-Datei (f)",
 "Alle Parameter sind obligatorisch.",
 "Teillieferungsvereinbarung (f)",
-  "Anlegen allgemein"
+  "Anlegen allgemein",
+  "Kreditorenbeleg (KA) (m)",
+  "Kreditorenrechnung (KR) (f)",
+  "Zahlungsverrechnung (ZV) (f)",
+  "Kreditorenanzahlung (KZ) (f)",
+  "Aufteilungsverfahren (n)"
+  
   ];
