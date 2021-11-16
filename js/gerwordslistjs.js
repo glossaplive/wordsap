@@ -4841,6 +4841,7 @@ var Germanworddic =
   "Kreditorenrechnung (KR) (f)",
   "Zahlungsverrechnung (ZV) (f)",
   "Kreditorenanzahlung (KZ) (f)",
-  "Aufteilungsverfahren (n)"
+  "Aufteilungsverfahren (n)",
+  "Abrechnungsvorschrift (f)"
   ];
   
