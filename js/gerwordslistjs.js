@@ -4842,6 +4842,8 @@ var Germanworddic =
   "Zahlungsverrechnung (ZV) (f)",
   "Kreditorenanzahlung (KZ) (f)",
   "Aufteilungsverfahren (n)",
-  "Abrechnungsvorschrift (f)"
+  "Abrechnungsvorschrift (f)",
+  "Unterauftrag (m)",
+  "Zahlungsträger (m)"
   ];
   
