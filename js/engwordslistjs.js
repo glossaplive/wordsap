@@ -4842,5 +4842,7 @@ var Englishworddic =
   "payment clearing",
   "vendor down payment",
   "splitting method",
-  "settlement rule / billing rule"
+  "settlement rule / billing rule",
+  "sub order",
+  "payment medium"
   ];
