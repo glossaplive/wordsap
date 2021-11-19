@@ -4844,6 +4844,10 @@ var Germanworddic =
   "Aufteilungsverfahren (n)",
   "Abrechnungsvorschrift (f)",
   "Unterauftrag (m)",
-  "Zahlungsträger (m)"
+  "Zahlungsträger (m)",
+  "Abstimmungsstatus (m)",
+  "Alle Positionen sind zugeordnet",
+  "Alle Positionen sind abgeglichen"
+  
   ];
   
