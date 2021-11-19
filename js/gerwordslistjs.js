@@ -4846,8 +4846,13 @@ var Germanworddic =
   "Unterauftrag (m)",
   "Zahlungsträger (m)",
   "Abstimmungsstatus (m)",
-  "Alle Positionen sind zugeordnet",
-  "Alle Positionen sind abgeglichen",
-  "Abstimmungsabschlussprozess (m)"
+  "Alle Positionen sind zugeordnet [Option]",
+  "Alle Positionen sind abgeglichen [Option]",
+  "Abstimmungsabschlussprozess (m)",
+  "Nur wenn Differenz die Toleranz übersteigt [Option]",
+  "Anzeigegruppe (f)",
+  "Nur wenn Differenz vorhanden ist [Option]",
+  "Eliminierungsbuchungen (f) (pl)",
+  "Abstimmungsfall (m)"
   ];
   
