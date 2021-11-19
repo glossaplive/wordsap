@@ -4844,5 +4844,9 @@ var Englishworddic =
   "splitting method",
   "settlement rule / billing rule",
   "sub order",
-  "payment medium"
+  "payment medium",
+  "reconciliation status",
+  "All items are assigned.",
+  "All items are matched.",
+  "reconciliation close process"
   ];
