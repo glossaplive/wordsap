@@ -4847,7 +4847,7 @@ var Germanworddic =
   "Zahlungsträger (m)",
   "Abstimmungsstatus (m)",
   "Alle Positionen sind zugeordnet",
-  "Alle Positionen sind abgeglichen"
-  
+  "Alle Positionen sind abgeglichen",
+  "Abstimmungsabschlussprozess (m)"
   ];
   
