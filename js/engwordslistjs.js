@@ -4846,7 +4846,12 @@ var Englishworddic =
   "sub order",
   "payment medium",
   "reconciliation status",
-  "All items are assigned.",
-  "All items are matched.",
-  "reconciliation close process"
+  "All items are assigned [option]",
+  "All items are matched [option]",
+  "reconciliation close process",
+  "Only when difference exceeds tolerance [option]",
+  "display group",
+  "only when difference exists [option]",
+  "elimination postings",
+  "reconciliation case"
   ];
