@@ -4851,7 +4851,7 @@ var Englishworddic =
   "reconciliation close process",
   "Only when difference exceeds tolerance [option]",
   "display group",
-  "only when difference exists [option]",
+  "Only when difference exists [option]",
   "elimination postings",
   "reconciliation case"
   ];
