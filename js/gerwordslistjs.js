@@ -4853,6 +4853,7 @@ var Germanworddic =
   "Anzeigegruppe (f)",
   "Nur wenn Differenz vorhanden ist [Option]",
   "Eliminierungsbuchungen (f) (pl)",
-  "Abstimmungsfall (m)"
+  "Abstimmungsfall (m)",
+  "Zeilenmuster (n)"
   ];
   
