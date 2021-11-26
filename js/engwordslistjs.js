@@ -4854,5 +4854,6 @@ var Englishworddic =
   "Only when difference exists [option]",
   "elimination postings",
   "reconciliation case",
-  "row pattern"
+  "row pattern",
+  "inventory difference"
   ];
