@@ -470,7 +470,7 @@ var Englishworddic =
 "ordering process",
 "purchase requisition (purchase order request / PO request)",
 "purchase / purchase order / order",
-"goods receipt",
+"goods receipt / inbound logistics",
 "make-to-stock",
 "contingent liability",
 "reporting extractor",
@@ -4853,5 +4853,6 @@ var Englishworddic =
   "display group",
   "Only when difference exists [option]",
   "elimination postings",
-  "reconciliation case"
+  "reconciliation case",
+  "row pattern"
   ];
