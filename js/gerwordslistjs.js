@@ -4854,6 +4854,7 @@ var Germanworddic =
   "Nur wenn Differenz vorhanden ist [Option]",
   "Eliminierungsbuchungen (f) (pl)",
   "Abstimmungsfall (m)",
-  "Zeilenmuster (n)"
+  "Zeilenmuster (n)",
+  "Inventurdifferenz (f)"
   ];
   
