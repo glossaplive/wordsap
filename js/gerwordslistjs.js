@@ -4855,6 +4855,7 @@ var Germanworddic =
   "Eliminierungsbuchungen (f) (pl)",
   "Abstimmungsfall (m)",
   "Zeilenmuster (n)",
-  "Inventurdifferenz (f)"
+  "Inventurdifferenz (f)",
+  "Abgrenzungswert (m)"
   ];
   
