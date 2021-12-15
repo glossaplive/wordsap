@@ -4855,5 +4855,6 @@ var Englishworddic =
   "elimination postings",
   "reconciliation case",
   "row pattern",
-  "inventory difference"
+  "inventory difference",
+  "accrual values"
   ];
