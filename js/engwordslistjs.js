@@ -4856,5 +4856,8 @@ var Englishworddic =
   "reconciliation case",
   "row pattern",
   "inventory difference",
-  "accrual value"
-  ];
+  "accrual value",
+  "business transactions",
+  "cross-company code payments",
+  "paying company code"
+    ];
