@@ -4856,6 +4856,9 @@ var Germanworddic =
   "Abstimmungsfall (m)",
   "Zeilenmuster (n)",
   "Inventurdifferenz (f)",
-  "Abgrenzungswert (m)"
-  ];
+  "Abgrenzungswert (m)",
+  "betriebswirtschaftliche Vorgänge (pl) (f)",
+  "buchungskreisübergreifende Regulierung",
+  "Zbukr / Zahl.bukrs [Zahlender Buchungskreis] (m)"
+    ];
   
