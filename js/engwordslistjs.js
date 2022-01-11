@@ -4864,5 +4864,10 @@ var Englishworddic =
   "service item",
   "save as template [menu item in SAP standard screen)",
   "object link",
-  "subject matter"
+  "subject matter",
+  "Check Out [icon]",
+  "to recover / to restore",
+  "Federal Law Gazette / Federal Act",
+  "service documentation",
+  "manual release"
     ];
