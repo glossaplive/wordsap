@@ -4859,5 +4859,10 @@ var Englishworddic =
   "accrual value",
   "business transactions",
   "cross-company code payments",
-  "paying company code"
+  "paying company code",
+  "order item category",
+  "service item",
+  "save as template [menu item in SAP standard screen)",
+  "object link",
+  "subject matter"
     ];
