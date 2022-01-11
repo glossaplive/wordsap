@@ -4869,5 +4869,7 @@ var Englishworddic =
   "to recover / to restore",
   "Federal Law Gazette / Federal Act",
   "service documentation",
-  "manual release"
+  "manual release",
+  "allocation history",
+  "allocations already made"
     ];
