@@ -4862,7 +4862,7 @@ var Englishworddic =
   "paying company code",
   "order item category",
   "service item",
-  "save as template [menu item in SAP standard screen)",
+  "save as template [menu item in SAP standard screen]",
   "object link",
   "subject matter",
   "Check Out [icon]",
