@@ -4859,6 +4859,11 @@ var Germanworddic =
   "Abgrenzungswert (m)",
   "betriebswirtschaftliche Vorgänge (pl) (f)",
   "buchungskreisübergreifende Regulierung",
-  "Zbukr / Zahl.bukrs [Zahlender Buchungskreis] (m)"
+  "Zbukr / Zahl.bukrs [Zahlender Buchungskreis] (m)",
+  "Bestellpositionstyp (m)",
+  "Dienstleistungspositions (f)",
+  "als Vorlage sichern [Menüpunkt im SAP Standardbildschirm]",
+  "Objektverknüpfung (f)",
+  "Sachverhalt (m)"
     ];
   
