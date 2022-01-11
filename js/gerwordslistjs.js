@@ -4868,6 +4868,8 @@ var Germanworddic =
   "in Arbeit nehmen [Symbol]",
   "wiederherstellen",
   "Bundesgesetzblatt [BGBL / BGBl] (n)",
-  "manuelle Freigabe (f)"
+  "manuelle Freigabe (f)",
+  "Verrechnungshistorie (f)",
+  "bereits erfolgte Verrechnungen (pl) (f)"
     ];
   
