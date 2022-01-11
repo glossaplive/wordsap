@@ -4868,8 +4868,8 @@ var Englishworddic =
   "Check Out [icon]",
   "to recover / to restore",
   "Federal Law Gazette / Federal Act",
-  "service documentation",
   "manual release",
+  "service documentation",
   "allocation history",
   "allocations already made"
     ];
