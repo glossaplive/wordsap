@@ -4869,6 +4869,7 @@ var Germanworddic =
   "wiederherstellen",
   "Bundesgesetzblatt [BGBL / BGBl] (n)",
   "manuelle Freigabe (f)",
+  "Leistungsdokumentation (f)",
   "Verrechnungshistorie (f)",
   "bereits erfolgte Verrechnungen (pl) (f)"
     ];
