@@ -4864,6 +4864,10 @@ var Germanworddic =
   "Dienstleistungspositions (f)",
   "als Vorlage sichern [Menüpunkt im SAP Standardbildschirm]",
   "Objektverknüpfung (f)",
-  "Sachverhalt (m)"
+  "Sachverhalt (m)",
+  "in Arbeit nehmen [Symbol]",
+  "wiederherstellen",
+  "Bundesgesetzblatt [BGBL / BGBl] (n)",
+  "manuelle Freigabe (f)"
     ];
   
