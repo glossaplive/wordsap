@@ -4817,7 +4817,7 @@ var Englishworddic =
 "document line item",
 "package label",
 "purchase order for material",
-"transport order",
+"transport order" / "transport requirement",
 "purchase order release",
 "hourly deduction",
 "factoring",
@@ -4871,5 +4871,16 @@ var Englishworddic =
   "manual release",
   "service documentation",
   "allocation history",
-  "allocations already made"
+  "allocations already made",
+  "user decision",
+  "update error",
+  "maintenance item",
+  "maintenance operations",
+  "maintenance planning plant",
+  "maintenance activity type",
+  "maintenance order",
+  "maintenance planner group",
+  "reversal indicator",
+  "logistics work center",
+  "decision option"
     ];
