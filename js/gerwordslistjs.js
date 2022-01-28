@@ -4871,6 +4871,17 @@ var Germanworddic =
   "manuelle Freigabe (f)",
   "Leistungsdokumentation (f)",
   "Verrechnungshistorie (f)",
-  "bereits erfolgte Verrechnungen (pl) (f)"
-    ];
+  "bereits erfolgte Verrechnungen (pl) (f)",
+  "Benutzerentscheidung (f)",
+  "Verbuchungsfehler (m)",
+  "Wartungsposition (f)",
+  "Instandhaltungsvorgänge (pl) (f)",
+  "Instandhaltungsplanungswerk (n)",
+  "Instandhaltungsleistungsart (f)",
+  "Instandhaltungsauftrag (m)",
+  "Instandhaltungsplanergruppe (f)",
+  "Stornokennzeichen (n)",
+  "logistischer Arbeitsplatz (m)",
+  "Entscheidungsalternative (f)"
+      ];
   
