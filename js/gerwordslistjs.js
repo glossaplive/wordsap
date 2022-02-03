@@ -4882,6 +4882,8 @@ var Germanworddic =
   "Instandhaltungsplanergruppe (f)",
   "Stornokennzeichen (n)",
   "logistischer Arbeitsplatz (m)",
-  "Entscheidungsalternative (f)"
+  "Entscheidungsalternative (f)",
+  "Bearbeiter (m) / Bearbeiterin (f)",
+  "Facharbeiter (m) / Facharbeiterin (f)"
       ];
   
