@@ -4882,5 +4882,7 @@ var Englishworddic =
   "maintenance planner group",
   "reversal indicator",
   "logistics work center",
-  "decision option"
+  "decision option",
+  "agent",
+  "technician"
     ];
