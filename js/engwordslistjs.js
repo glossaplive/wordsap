@@ -4884,5 +4884,13 @@ var Englishworddic =
   "logistics work center",
   "decision option",
   "agent",
-  "technician"
+  "technician",
+  "deletion flag",
+  "circuit breaker",
+  "tool chest",
+  "safety equipment",
+  "Agenda-Template",
+  "learning activity",
+  "lock flag",
+  "event language"
     ];
