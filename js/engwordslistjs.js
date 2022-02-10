@@ -516,7 +516,7 @@ var Englishworddic =
 "material master",
 "release procedure",
 "single selection",
-"Bill of Exchange (BOE)",
+"payment by bill of exchange",
 "cash discount / early payment discount",
 "blanket purchase order",
 "supplement text",
@@ -4892,5 +4892,10 @@ var Englishworddic =
   "Agenda-Template",
   "learning activity",
   "lock flag",
-  "event language"
+  "event language",
+  "contingent liability",
+  "bill of exchange receivable / bill receivable",
+  "bill of exchange liability / bill liability",
+  "bill of exchange receivable / change of ownership",
+  "recourse liability"
     ];
