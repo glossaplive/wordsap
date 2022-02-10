@@ -4884,6 +4884,14 @@ var Germanworddic =
   "logistischer Arbeitsplatz (m)",
   "Entscheidungsalternative (f)",
   "Bearbeiter (m) / Bearbeiterin (f)",
-  "Facharbeiter (m) / Facharbeiterin (f)"
+  "Facharbeiter (m) / Facharbeiterin (f)",
+  "Löschvermerk (m)",
+  "Leistungsschalter (m)",
+  "Werkzeugschrank (m)",
+  "Sicherheitsausstattung (f)",
+  "Agenda-Vorlage (f)",
+  "Schulungsaktivität (f)",
+  "Sperrvermerk (m)",
+  "Veranstaltungssprache (f)"
       ];
   
