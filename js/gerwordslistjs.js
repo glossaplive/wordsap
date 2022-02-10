@@ -4892,6 +4892,11 @@ var Germanworddic =
   "Agenda-Vorlage (f)",
   "Schulungsaktivität (f)",
   "Sperrvermerk (m)",
-  "Veranstaltungssprache (f)"
+  "Veranstaltungssprache (f)",
+  "Obligopflege (f)",
+  "Wechselforderung (f)",
+  "Wechselobligo (n)",
+  "Besitzwechsel (m)",
+  "Regreßverbindlichkeit (f) / Rückgriffsverbindlichkeit (f)"
       ];
   
