@@ -4897,5 +4897,6 @@ var Englishworddic =
   "bill of exchange receivable / bill receivable",
   "bill of exchange liability / bill liability",
   "bill of exchange receivable / change of ownership",
-  "recourse liability"
+  "recourse liability",
+  "legacy data"
     ];
