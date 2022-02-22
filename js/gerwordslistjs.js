@@ -4897,6 +4897,7 @@ var Germanworddic =
   "Wechselforderung (f)",
   "Wechselobligo (n)",
   "Besitzwechsel (m)",
-  "Regreßverbindlichkeit (f) / Rückgriffsverbindlichkeit (f)"
+  "Regreßverbindlichkeit (f) / Rückgriffsverbindlichkeit (f)",
+  "Altdaten (f) (pl)"
       ];
   
