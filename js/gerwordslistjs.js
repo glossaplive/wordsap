@@ -4900,7 +4900,7 @@ var Germanworddic =
   "Regreßverbindlichkeit (f) / Rückgriffsverbindlichkeit (f)",
   "Altdaten (f) (pl)",
   "Fahrauftrag (m)",
-  "standortwerk (n)",
+  "Standortwerk (n)",
   "Arbeitsplatzwerk (n)",
   "Plannergruppe (f)"
       ];
