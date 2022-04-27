@@ -4898,6 +4898,10 @@ var Germanworddic =
   "Wechselobligo (n)",
   "Besitzwechsel (m)",
   "Regreßverbindlichkeit (f) / Rückgriffsverbindlichkeit (f)",
-  "Altdaten (f) (pl)"
+  "Altdaten (f) (pl)",
+  "Fahrauftrag (m)",
+  "standortwerk (n)",
+  "Arbeitsplatzwerk (n)",
+  "Plannergruppe (f)"
       ];
   
