@@ -4927,6 +4927,6 @@ var Germanworddic =
   "Keine Lagersysteme (f) (pl)",
   "Nicht-Lagerverwaltungssysteme (f) (pl)",
   "Fremdsysteme (f) (pl)",
-  "Defekte Rechnung (f)"
+  "defekte Rechnung (f)"
       ];
   
