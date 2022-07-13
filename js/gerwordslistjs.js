@@ -4927,6 +4927,10 @@ var Germanworddic =
   "Keine Lagersysteme (f) (pl)",
   "Nicht-Lagerverwaltungssysteme (f) (pl)",
   "Fremdsysteme (f) (pl)",
-  "defekte Rechnung (f)"
+  "defekte Rechnung (f)",
+  "Sachkontosalden (f) (pl)",
+  "Projektanlagen (f) (pl)",
+  "entmarkieren",
+  "Buchungsbereich (m)"
       ];
   
