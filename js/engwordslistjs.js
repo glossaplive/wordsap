@@ -4927,5 +4927,9 @@ var Englishworddic =
   "non-warehouse systems",
   "non-warehouse management systems",
   "external systems",
-  "corrupted invoice"
+  "corrupted invoice",
+  "G/L account balances",
+  "project assets",
+  "to deselect",
+  "posting area"
       ];
