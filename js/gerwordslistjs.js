@@ -643,7 +643,7 @@ var Germanworddic =
 "nebeneinander anordnen",
 "Wechselrücklauf (m)",
 "Avis (m) (n)",
-"Hausebank (f)",
+"Hausbank (f)",
 "vorgelegt",
 "Bezogene (m)",
 "Einlösung (f)",
@@ -4931,6 +4931,7 @@ var Germanworddic =
   "Sachkontosalden (f) (pl)",
   "Projektanlagen (f) (pl)",
   "entmarkieren",
-  "Buchungsbereich (m)"
+  "Buchungsbereich (m)",
+  "Kurzschlüßel (m)"
       ];
   
