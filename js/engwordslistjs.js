@@ -4932,5 +4932,6 @@ var Englishworddic =
   "project assets",
   "to deselect",
   "posting area",
-  "short key"
+  "short key",
+  "table of permits (approval table)"
       ];
