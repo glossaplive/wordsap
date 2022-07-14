@@ -4932,6 +4932,7 @@ var Germanworddic =
   "Projektanlagen (f) (pl)",
   "entmarkieren",
   "Buchungsbereich (m)",
-  "Kurzschlüßel (m)"
+  "Kurzschlüßel (m)",
+  "Genehmigungstabelle (f)"
       ];
   
