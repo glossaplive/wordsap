@@ -4933,6 +4933,7 @@ var Germanworddic =
   "entmarkieren",
   "Buchungsbereich (m)",
   "Kurzschlüßel (m)",
-  "Genehmigungstabelle (f)"
+  "Genehmigungstabelle (f)",
+  "Meldender (m) (kontextabhängig)"
       ];
   
