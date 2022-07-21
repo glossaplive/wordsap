@@ -4934,6 +4934,7 @@ var Germanworddic =
   "Buchungsbereich (m)",
   "Kurzschlüßel (m)",
   "Genehmigungstabelle (f)",
-  "Meldender (m) (kontextabhängig)"
+  "Meldender (m) (kontextabhängig)",
+  "Genehmigungslimit (n)"
       ];
   
