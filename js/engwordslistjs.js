@@ -4934,5 +4934,6 @@ var Englishworddic =
   "posting area",
   "short key",
   "table of permits (approval table)",
-  "notification creator (context-dependent)"
+  "notification creator (context-dependent)",
+  "approval limit"
       ];
