@@ -4935,6 +4935,7 @@ var Germanworddic =
   "Kurzschlüßel (m)",
   "Genehmigungstabelle (f)",
   "Meldender (m) (kontextabhängig)",
-  "Genehmigungslimit (n)"
+  "Genehmigungslimit (n)",
+  "Erfolgsprämie (f)"
       ];
   
