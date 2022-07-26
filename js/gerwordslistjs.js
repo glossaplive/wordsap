@@ -4936,6 +4936,7 @@ var Germanworddic =
   "Genehmigungstabelle (f)",
   "Meldender (m) (kontextabhängig)",
   "Genehmigungslimit (n)",
-  "Erfolgsprämie (f)"
+  "Erfolgsprämie (f)",
+  "Ausfallbürgschaft (f)"
       ];
   
