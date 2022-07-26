@@ -4935,5 +4935,6 @@ var Englishworddic =
   "short key",
   "table of permits (approval table)",
   "notification creator (context-dependent)",
-  "approval limit"
+  "approval limit",
+  "award fee"
       ];
