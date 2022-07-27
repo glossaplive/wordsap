@@ -4937,6 +4937,8 @@ var Germanworddic =
   "Meldender (m) (kontextabhängig)",
   "Genehmigungslimit (n)",
   "Erfolgsprämie (f)",
-  "Ausfallbürgschaft (f)"
+  "Ausfallbürgschaft (f)",
+  "Vorfälligkeitspreis (m)",
+  "Tilgung (f)"
       ];
   
