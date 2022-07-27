@@ -4937,5 +4937,7 @@ var Englishworddic =
   "notification creator (context-dependent)",
   "approval limit",
   "award fee",
-  "indemnity bond"
+  "indemnity bond",
+  "early withdrawal penalty",
+  "repayment"
       ];
