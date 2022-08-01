@@ -4939,5 +4939,7 @@ var Englishworddic =
   "award fee",
   "indemnity bond",
   "early withdrawal penalty",
-  "repayment"
+  "repayment",
+  "encumbrance tracking",
+  "form of encumbrance"
       ];
