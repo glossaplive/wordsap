@@ -4939,6 +4939,8 @@ var Germanworddic =
   "Erfolgsprämie (f)",
   "Ausfallbürgschaft (f)",
   "Vorfälligkeitspreis (m)",
-  "Tilgung (f)"
+  "Tilgung (f)",
+  "Obligofortschreibung (f)",
+  "Form des Grundpfandrechts (n)"
       ];
   
