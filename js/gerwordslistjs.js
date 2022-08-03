@@ -9,7 +9,7 @@ var Germanworddic =
 "Prozessrechte (f)",
 "Route (f)",
 "Transitzeitraum (m)",
-"Tägliche Arbeiten (f)",
+"tägliche Arbeiten (f)",
 "Berechtigungsrolle (f)",
 "Buchungskreis (m)",
 "sperren",
