@@ -4942,6 +4942,9 @@ var Germanworddic =
   "Tilgung (f)",
   "Obligofortschreibung (f)",
   "Form des Grundpfandrechts (n)",
-  "Einzelveräußerungspreis (m)"
+  "Einzelveräußerungspreis (m)",
+  "Kautionsvereinbarung (f)",
+  "mündelsichere Wertpapiere (f) (pl)",
+  "Zahlungsverkehrsvordruck [ZVV] (m)"
       ];
   
