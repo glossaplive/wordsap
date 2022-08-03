@@ -4941,6 +4941,7 @@ var Germanworddic =
   "Vorfälligkeitspreis (m)",
   "Tilgung (f)",
   "Obligofortschreibung (f)",
-  "Form des Grundpfandrechts (n)"
+  "Form des Grundpfandrechts (n)",
+  "Einzelveräußerungspreis (m)"
       ];
   
