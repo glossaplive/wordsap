@@ -4945,6 +4945,8 @@ var Germanworddic =
   "Einzelveräußerungspreis (m)",
   "Kautionsvereinbarung (f)",
   "mündelsichere Wertpapiere (f) (pl)",
-  "Zahlungsverkehrsvordruck [ZVV] (m)"
+  "Zahlungsverkehrsvordruck [ZVV] (m)",
+  "Gebührenziffer [Gzif] (f)",
+  "Kreditorenbuchhaltung (f)"
       ];
   
