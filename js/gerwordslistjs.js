@@ -4947,6 +4947,7 @@ var Germanworddic =
   "mündelsichere Wertpapiere (f) (pl)",
   "Zahlungsverkehrsvordruck [ZVV] (m)",
   "Gebührenziffer [Gzif] (f)",
-  "Kreditorenbuchhaltung (f)"
+  "Kreditorenbuchhaltung (f)",
+  "Massennachdruck (m)"
       ];
   
