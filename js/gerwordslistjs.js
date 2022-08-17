@@ -4949,6 +4949,7 @@ var Germanworddic =
   "Gebührenziffer [Gzif] (f)",
   "Kreditorenbuchhaltung (f)",
   "Massennachdruck (m)",
-  "Vor-Ort-Lösung (f)"
+  "Vor-Ort-Lösung (f)",
+  "Wechselanforderung (f)"
       ];
   
