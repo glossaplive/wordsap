@@ -4949,5 +4949,6 @@ var Englishworddic =
   "fee code",
   "accounts payable",
   "mass reprint",
-  "on-premise solution"
+  "on-premise solution",
+  "bill of exchange payment request"
       ];
