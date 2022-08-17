@@ -4950,5 +4950,8 @@ var Englishworddic =
   "accounts payable",
   "mass reprint",
   "on-premise solution",
-  "bill of exchange payment request"
+  "bill of exchange payment request",
+  "dunning charge",
+  "charges receivable",
+  "budget billing receivable"
       ];
