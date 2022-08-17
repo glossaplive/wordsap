@@ -4948,6 +4948,7 @@ var Germanworddic =
   "Zahlungsverkehrsvordruck [ZVV] (m)",
   "Gebührenziffer [Gzif] (f)",
   "Kreditorenbuchhaltung (f)",
-  "Massennachdruck (m)"
+  "Massennachdruck (m)",
+  "Vor-Ort-Lösung (f)"
       ];
   
