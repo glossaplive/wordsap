@@ -4950,6 +4950,9 @@ var Germanworddic =
   "Kreditorenbuchhaltung (f)",
   "Massennachdruck (m)",
   "Vor-Ort-Lösung (f)",
-  "Wechselanforderung (f)"
+  "Wechselanforderung (f)",
+  "Mahngebühr (f)",
+  "Gebührenforderung (f)",
+  "Abschlagsanforderung (f)"
       ];
   
