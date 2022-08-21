@@ -4961,6 +4961,9 @@ var Germanworddic =
   "Eigenkapital (n)",
   "Teilhaberpapier (n)",
   "Beteiligungspapier (n)",
-  "Ursprungszeugnis (n)"
+  "Ursprungszeugnis (n)",
+  "Rechtsdokument (n)",
+  "Ausführer (m)",
+  "Einführer (m)"
         ];
   
