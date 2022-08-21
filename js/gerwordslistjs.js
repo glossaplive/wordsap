@@ -4960,6 +4960,7 @@ var Germanworddic =
   "Problem wurde fremdverursacht.",
   "Eigenkapital (n)",
   "Teilhaberpapier (n)",
-  "Beteiligungspapier (n)"
+  "Beteiligungspapier (n)",
+  "Ursprungszeugnis (n)"
         ];
   
