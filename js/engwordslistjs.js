@@ -4957,5 +4957,8 @@ var Englishworddic =
   "penalty surcharge",
   "debt load",
   "Problem arose because of an internal cause.",
-  "Problem arose because of an external cause."
+  "Problem arose because of an external cause.",
+  "equity",
+  "equity",
+  "equity";
       ];
