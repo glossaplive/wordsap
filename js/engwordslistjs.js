@@ -4961,5 +4961,8 @@ var Englishworddic =
   "equity",
   "equity",
   "equity",
-  "certificate of origin"
+  "certificate of origin",
+  "legal document",
+  "exporter",
+  "importer"
       ];
