@@ -4960,5 +4960,5 @@ var Englishworddic =
   "Problem arose because of an external cause.",
   "equity",
   "equity",
-  "equity";
+  "equity"
       ];
