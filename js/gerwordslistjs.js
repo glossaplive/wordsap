@@ -4957,6 +4957,9 @@ var Germanworddic =
   "Säumniszuschlag (m)",
   "Schuldenlast (f)",
   "Problem wurde eigenverursacht.",
-  "Problem wurde fremdverursacht."
+  "Problem wurde fremdverursacht.",
+  "Eigenkapital (n)",
+  "Teilhaberpapier (n)",
+  "Beteiligungspapier (n)"
         ];
   
