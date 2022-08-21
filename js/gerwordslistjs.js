@@ -597,7 +597,7 @@ var Germanworddic =
 "Ausgleich (m)",
 "mit oder ohne Ausgleich vornehmen",
 "Ladeliste (f)",
-"Lieferschein (m) (also shortly called LS)",
+"Lieferschein (m) (oft als LS abgekürzt)",
 "Abladestelle (f)",
 "Vertragsteil (m)",
 "Vertragsteilbeginn (m) verlegen",
