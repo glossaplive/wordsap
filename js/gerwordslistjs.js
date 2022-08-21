@@ -4954,6 +4954,9 @@ var Germanworddic =
   "Mahngebühr (f)",
   "Gebührenforderung (f)",
   "Abschlagsanforderung (f)",
-  "Säumniszuschlag (m)"
-      ];
+  "Säumniszuschlag (m)",
+  "Schuldenlast (f)",
+  "Problem wurde eigenverursacht.",
+  "Problem wurde fremdverursacht."
+        ];
   
