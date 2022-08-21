@@ -3080,7 +3080,7 @@ var Englishworddic =
 "warranty",
 "delivering plant",
 "procurement plant",
-"receivable clearing",
+"accounts receivable clearing",
 "rel.scheduled",
 "post processing",
 "CC (cost center)",
@@ -4953,5 +4953,6 @@ var Englishworddic =
   "bill of exchange payment request",
   "dunning charge",
   "charges receivable",
-  "budget billing receivable"
+  "budget billing receivable",
+  "penalty surcharge"
       ];
