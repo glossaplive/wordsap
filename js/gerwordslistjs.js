@@ -4953,6 +4953,7 @@ var Germanworddic =
   "Wechselanforderung (f)",
   "Mahngebühr (f)",
   "Gebührenforderung (f)",
-  "Abschlagsanforderung (f)"
+  "Abschlagsanforderung (f)",
+  "Säumniszuschlag (m)"
       ];
   
