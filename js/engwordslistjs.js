@@ -4956,6 +4956,6 @@ var Englishworddic =
   "budget billing receivable",
   "penalty surcharge",
   "debt load",
-  "problem arose because of an internal cause.",
-  "problem arose because of an external cause."
+  "Problem arose because of an internal cause.",
+  "Problem arose because of an external cause."
       ];
