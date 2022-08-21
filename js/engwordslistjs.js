@@ -4954,5 +4954,8 @@ var Englishworddic =
   "dunning charge",
   "charges receivable",
   "budget billing receivable",
-  "penalty surcharge"
+  "penalty surcharge",
+  "debt load",
+  "problem arose because of an internal cause.",
+  "problem arose because of an external cause."
       ];
