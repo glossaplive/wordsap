@@ -4964,6 +4964,12 @@ var Germanworddic =
   "Ursprungszeugnis (n)",
   "Rechtsdokument (n)",
   "Ausführer (m)",
-  "Einführer (m)"
+  "Einführer (m)",
+  "Die Bedingung wurde verletzt.",
+  "Abrechnungsvergangenheit (f)",
+  "Abrechnungsgegenwart (f)",
+  "Gültigkeitsbeginn (m)",
+  "Eintrittsdatum (n)",
+  "Freigabedatum (n)"
         ];
   
