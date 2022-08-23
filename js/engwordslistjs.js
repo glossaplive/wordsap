@@ -4964,5 +4964,11 @@ var Englishworddic =
   "certificate of origin",
   "legal document",
   "exporter",
-  "importer"
+  "importer",
+  "The condition has been violated.",
+  "payroll past",
+  "payroll present",
+  "validity start",
+  "entry date",
+  "release date"
       ];
